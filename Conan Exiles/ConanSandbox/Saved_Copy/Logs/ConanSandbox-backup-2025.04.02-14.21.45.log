@@ -1,0 +1,108 @@
+﻿Log file open, 04/02/25 14:04:07
+LogPakFile:Warning: Spent 0.329 seconds mounting Pak File "../../../ConanSandbox/Content/Paks/Sound.pak". Mounting status: Success
+LogPakFile:Warning: Spent 0.205 seconds mounting Pak File "../../../ConanSandbox/Content/Paks/DLC_Special.pak". Mounting status: Success
+LogPakFile:Warning: Spent 0.168 seconds mounting Pak File "../../../ConanSandbox/Content/Paks/Characters.pak". Mounting status: Success
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 29 total threads with 3 sets of task threads.
+LogInit: Using libcurl 7.55.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2u
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.57
+LogOnlineTime: Real UTC time requested.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnlineSubsystemFls:Display: 
+--- FLS ENVIRONMENT INFO ---
+ OSS:                    SteamA5B4F (Retail)
+ InstanceName:           DefaultInstance
+ IniPlatformName:        WindowsSteam
+ OnlineEnvironment:      Unknown
+ FLS Environment overridden to Retail
+LogTemp: Using NVIDIAGfeSDKPlugin version 1.0.0
+LogModManager: Starting mod runtime module.
+LogInit: Build: ue415-dw-osl-CL-1311351.0
+LogInit: Engine Version: 4.15.3-1311351+ue415-dw-osl
+LogInit: Compatible Engine Version: 4.15.0-1311351+ue415-dw-osl
+LogInit: Net CL: 1311351
+LogInit: Compiled (64-bit): Mar 10 2025 20:21:28
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ue415-dw-osl
+LogInit: Command line: --continuesession -BattlEye
+LogInit: Base directory: C:/Dysk D/Steam/steamapps/common/Conan Exiles/ConanSandbox/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Nativized: No
+LogInit: Presizing for max 10000000 objects, including 42000 objects not considered by GC, pre-allocating 13000000 bytes for permanent pool.
+LogStreaming:Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: true
+LogInit: Object subsystem initialized
+[2025.04.02-12.04.09:749][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2025.04.02-12.04.09:762][  0]LogInit: Setting Device Profile CVar: [[r.DynamicRes.FrameTimeBudget:33.3 -> 33.3]]
+[2025.04.02-12.04.09:762][  0]LogInit: Computer: [327b684f2337ced96140774fde59ce9e]
+[2025.04.02-12.04.09:762][  0]LogInit: User: [507e633ae4aac6c606627393ea66a0e6]
+[2025.04.02-12.04.09:762][  0]LogInit: CPU Page size=65536, Cores=12
+[2025.04.02-12.04.09:762][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2025.04.02-12.04.09:762][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2025.04.02-12.04.09:762][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2025.04.02-12.04.09:762][  0]LogMemory: Process Physical Memory: 297.52 MB used, 297.52 MB peak
+[2025.04.02-12.04.09:762][  0]LogMemory: Process Virtual Memory: 385.09 MB used, 385.09 MB peak
+[2025.04.02-12.04.09:762][  0]LogMemory: Physical Memory: 8042.40 MB used,  8266.48 MB free, 16308.88 MB total
+[2025.04.02-12.04.09:762][  0]LogMemory: Virtual Memory: 5889.96 MB used,  8266.48 MB free, 134217728.00 MB total
+[2025.04.02-12.04.11:246][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2025.04.02-12.04.12:606][  0]LogD3D11RHI: D3D11 adapters:
+[2025.04.02-12.04.13:438][  0]LogD3D11RHI:    0. 'AMD Radeon RX 7800 XT' (Feature Level 11_0)
+[2025.04.02-12.04.13:438][  0]LogD3D11RHI:       16152/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2025.04.02-12.04.13:788][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2025.04.02-12.04.13:788][  0]LogD3D11RHI:       0/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2025.04.02-12.04.13:788][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2025.04.02-12.04.13:796][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2025.04.02-12.04.13:797][  0]LogD3D11RHI:     GPU DeviceId: 0x747e (for the marketing name, search the web for "GPU Device Id")
+[2025.04.02-12.04.13:797][  0]LogWindows: EnumDisplayDevices:
+[2025.04.02-12.04.13:797][  0]LogWindows:    0. 'AMD Radeon RX 7800 XT' (P:1 D:1)
+[2025.04.02-12.04.13:797][  0]LogWindows:    1. 'AMD Radeon RX 7800 XT' (P:0 D:1)
+[2025.04.02-12.04.13:797][  0]LogWindows:    2. 'AMD Radeon RX 7800 XT' (P:0 D:0)
+[2025.04.02-12.04.13:798][  0]LogWindows:    3. 'AMD Radeon RX 7800 XT' (P:0 D:0)
+[2025.04.02-12.04.13:798][  0]LogWindows:    4. 'AMD Radeon RX 7800 XT' (P:0 D:0)
+[2025.04.02-12.04.13:798][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2025.04.02-12.04.13:798][  0]LogD3D11RHI:     Adapter Name: AMD Radeon RX 7800 XT
+[2025.04.02-12.04.13:798][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2025.04.02-12.04.13:798][  0]LogD3D11RHI:      Driver Date: Unknown
+[2025.04.02-12.04.13:798][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2025.04.02-12.04.14:824][  0]LogD3D11RHI: Async texture creation enabled
+[2025.04.02-12.04.14:834][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2025.04.02-12.04.15:608][  0]LogSlate: Using Freetype 2.6.0
+[2025.04.02-12.04.15:618][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2025.04.02-12.04.15:618][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2025.04.02-12.04.16:464][  0]LogAssetRegistry: FAssetRegistry took 0.6417 seconds to start up
+[2025.04.02-12.04.16:570][  0]LogDreamworld:Display: Dreamworld project: ConanSandbox
+[2025.04.02-12.04.16:570][  0]LogDreamworld:Display: Dreamworld configuration: ConanSandbox.Client.VS2015.Live.Win64
+[2025.04.02-12.04.16:570][  0]LogDreamworld:Display: Dreamworld platform: x64
+[2025.04.02-12.04.16:570][  0]LogDreamworld:Display: Dreamworld revision: 1311351
+[2025.04.02-12.04.16:570][  0]LogDreamworld:Display: Dreamworld snapshot: 43706
+[2025.04.02-12.04.16:570][  0]LogDreamworld:Display: Dreamworld branch: exiles-stable
+[2025.04.02-12.04.16:572][  0]LogDreamworld:Display: Platform (.ini): <unknown>
+[2025.04.02-12.04.16:572][  0]LogDreamworld:Display: Platform: WindowsNoEditor
+[2025.04.02-12.04.16:572][  0]LogDreamworld:Display: .ini sub-platform prefix: WindowsSteam
+[2025.04.02-12.04.16:579][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 2 prioritized culture(s) in 0.006821 seconds
+[2025.04.02-12.04.16:599][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2025.04.02-12.04.16:908][  0]LogNetVersion: GetLocalNetworkVersion: CL: 1311351, ProjectName: conansandbox, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1823219157
+[2025.04.02-12.04.16:908][  0]LogNetVersion: GetLocalNetworkVersionOverride: NetworkChecksum: 5171898
+[2025.04.02-12.04.17:118][  0]LogMoviePlayer: Initializing movie player
+[2025.04.02-12.04.18:350][  0]LogHttp:Warning: 0000013440E113C0: request failed, libcurl error: 52 (Server returned nothing (no headers, no data))
+[2025.04.02-12.04.18:350][  0]LogOnlineTime:Error: Real UTC time request failed.
+[2025.04.02-12.04.18:350][  0]LogOutputDevice:Display: Bug report upload completed with result code 200, took 1.777 seconds.
+[2025.04.02-12.04.18:350][  0]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2025.04.02-12.04.18:851][  0]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2025.04.02-12.04.19:352][  0]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
