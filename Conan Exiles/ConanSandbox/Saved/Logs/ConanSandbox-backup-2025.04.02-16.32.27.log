@@ -1,0 +1,1547 @@
+﻿Log file open, 04/02/25 14:21:45
+LogPakFile:Warning: Spent 0.325 seconds mounting Pak File "../../../ConanSandbox/Content/Paks/Sound.pak". Mounting status: Success
+LogPakFile:Warning: Spent 0.169 seconds mounting Pak File "../../../ConanSandbox/Content/Paks/GraniteSDK_0066.pak". Mounting status: Success
+LogPakFile:Warning: Spent 0.205 seconds mounting Pak File "../../../ConanSandbox/Content/Paks/DLC_Special.pak". Mounting status: Success
+LogPakFile:Warning: Spent 0.186 seconds mounting Pak File "../../../ConanSandbox/Content/Paks/Characters.pak". Mounting status: Success
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 29 total threads with 3 sets of task threads.
+LogInit: Using libcurl 7.55.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2u
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.57
+LogOnlineTime: Real UTC time requested.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnlineSubsystemFls:Display: 
+--- FLS ENVIRONMENT INFO ---
+ OSS:                    SteamA5B4F (Retail)
+ InstanceName:           DefaultInstance
+ IniPlatformName:        WindowsSteam
+ OnlineEnvironment:      Unknown
+ FLS Environment overridden to Retail
+LogTemp: Using NVIDIAGfeSDKPlugin version 1.0.0
+LogModManager: Starting mod runtime module.
+LogInit: Build: ue415-dw-osl-CL-1311351.0
+LogInit: Engine Version: 4.15.3-1311351+ue415-dw-osl
+LogInit: Compatible Engine Version: 4.15.0-1311351+ue415-dw-osl
+LogInit: Net CL: 1311351
+LogInit: Compiled (64-bit): Mar 10 2025 20:21:28
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ue415-dw-osl
+LogInit: Command line: --continuesession -BattlEye
+LogInit: Base directory: C:/Dysk D/Steam/steamapps/common/Conan Exiles/ConanSandbox/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Nativized: No
+LogInit: Presizing for max 10000000 objects, including 42000 objects not considered by GC, pre-allocating 13000000 bytes for permanent pool.
+LogStreaming:Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: true
+LogInit: Object subsystem initialized
+[2025.04.02-12.21.47:964][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2025.04.02-12.21.47:975][  0]LogInit: Setting Device Profile CVar: [[r.DynamicRes.FrameTimeBudget:33.3 -> 33.3]]
+[2025.04.02-12.21.47:976][  0]LogInit: Computer: [327b684f2337ced96140774fde59ce9e]
+[2025.04.02-12.21.47:976][  0]LogInit: User: [507e633ae4aac6c606627393ea66a0e6]
+[2025.04.02-12.21.47:976][  0]LogInit: CPU Page size=65536, Cores=12
+[2025.04.02-12.21.47:976][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2025.04.02-12.21.47:976][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2025.04.02-12.21.47:976][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2025.04.02-12.21.47:976][  0]LogMemory: Process Physical Memory: 297.96 MB used, 297.96 MB peak
+[2025.04.02-12.21.47:976][  0]LogMemory: Process Virtual Memory: 385.10 MB used, 385.10 MB peak
+[2025.04.02-12.21.47:976][  0]LogMemory: Physical Memory: 8097.59 MB used,  8211.29 MB free, 16308.88 MB total
+[2025.04.02-12.21.47:976][  0]LogMemory: Virtual Memory: 5885.70 MB used,  8211.29 MB free, 134217728.00 MB total
+[2025.04.02-12.21.49:459][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2025.04.02-12.21.51:030][  0]LogD3D11RHI: D3D11 adapters:
+[2025.04.02-12.21.51:790][  0]LogD3D11RHI:    0. 'AMD Radeon RX 7800 XT' (Feature Level 11_0)
+[2025.04.02-12.21.51:790][  0]LogD3D11RHI:       16152/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2025.04.02-12.21.52:179][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2025.04.02-12.21.52:179][  0]LogD3D11RHI:       0/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2025.04.02-12.21.52:179][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2025.04.02-12.21.52:186][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2025.04.02-12.21.52:186][  0]LogD3D11RHI:     GPU DeviceId: 0x747e (for the marketing name, search the web for "GPU Device Id")
+[2025.04.02-12.21.52:186][  0]LogWindows: EnumDisplayDevices:
+[2025.04.02-12.21.52:186][  0]LogWindows:    0. 'AMD Radeon RX 7800 XT' (P:1 D:1)
+[2025.04.02-12.21.52:186][  0]LogWindows:    1. 'AMD Radeon RX 7800 XT' (P:0 D:1)
+[2025.04.02-12.21.52:186][  0]LogWindows:    2. 'AMD Radeon RX 7800 XT' (P:0 D:0)
+[2025.04.02-12.21.52:187][  0]LogWindows:    3. 'AMD Radeon RX 7800 XT' (P:0 D:0)
+[2025.04.02-12.21.52:187][  0]LogWindows:    4. 'AMD Radeon RX 7800 XT' (P:0 D:0)
+[2025.04.02-12.21.52:187][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2025.04.02-12.21.52:187][  0]LogD3D11RHI:     Adapter Name: AMD Radeon RX 7800 XT
+[2025.04.02-12.21.52:187][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2025.04.02-12.21.52:187][  0]LogD3D11RHI:      Driver Date: Unknown
+[2025.04.02-12.21.52:187][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2025.04.02-12.21.53:100][  0]LogD3D11RHI: Async texture creation enabled
+[2025.04.02-12.21.53:110][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2025.04.02-12.21.53:842][  0]LogSlate: Using Freetype 2.6.0
+[2025.04.02-12.21.53:851][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2025.04.02-12.21.53:851][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2025.04.02-12.21.54:698][  0]LogAssetRegistry: FAssetRegistry took 0.6525 seconds to start up
+[2025.04.02-12.21.54:804][  0]LogDreamworld:Display: Dreamworld project: ConanSandbox
+[2025.04.02-12.21.54:804][  0]LogDreamworld:Display: Dreamworld configuration: ConanSandbox.Client.VS2015.Live.Win64
+[2025.04.02-12.21.54:804][  0]LogDreamworld:Display: Dreamworld platform: x64
+[2025.04.02-12.21.54:804][  0]LogDreamworld:Display: Dreamworld revision: 1311351
+[2025.04.02-12.21.54:804][  0]LogDreamworld:Display: Dreamworld snapshot: 43706
+[2025.04.02-12.21.54:804][  0]LogDreamworld:Display: Dreamworld branch: exiles-stable
+[2025.04.02-12.21.54:806][  0]LogDreamworld:Display: Platform (.ini): <unknown>
+[2025.04.02-12.21.54:806][  0]LogDreamworld:Display: Platform: WindowsNoEditor
+[2025.04.02-12.21.54:806][  0]LogDreamworld:Display: .ini sub-platform prefix: WindowsSteam
+[2025.04.02-12.21.54:814][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 2 prioritized culture(s) in 0.007163 seconds
+[2025.04.02-12.21.54:832][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2025.04.02-12.21.55:138][  0]LogNetVersion: GetLocalNetworkVersion: CL: 1311351, ProjectName: conansandbox, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1823219157
+[2025.04.02-12.21.55:138][  0]LogNetVersion: GetLocalNetworkVersionOverride: NetworkChecksum: 5171898
+[2025.04.02-12.21.55:355][  0]LogMoviePlayer: Initializing movie player
+[2025.04.02-12.21.56:603][  0]LogHttp:Warning: 0000014B333F13C0: request failed, libcurl error: 52 (Server returned nothing (no headers, no data))
+[2025.04.02-12.21.56:603][  0]LogOnlineTime:Error: Real UTC time request failed.
+[2025.04.02-12.21.56:603][  0]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2025.04.02-12.21.57:103][  0]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2025.04.02-12.21.57:603][  0]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2025.04.02-12.21.58:104][  0]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2025.04.02-12.21.58:604][  0]LogGameTweakSystem:Warning: There is an update for the GameTweaks system available (Available Version : 9, Current Version : 0)
+[2025.04.02-12.21.58:604][  0]LogGameTweakSystem:Warning: Could not find GameTweak : 'DevkitMessage'
+[2025.04.02-12.21.58:604][  0]LogGameTweakSystem:Warning: Could not find GameTweak : 'DevkitVersionString'
+[2025.04.02-12.21.58:604][  0]LogGameTweakSystem:Warning: Could not find GameTweak : 'NextAllowedDateToPushModsToLive'
+[2025.04.02-12.21.58:604][  0]LogGameTweakSystem:Warning: Could not find GameTweak : 'NextReleaseDate'
+[2025.04.02-12.21.58:605][  0]ConanSandbox:Display: GetGameTweakDataPatchPath '../../../ConanSandbox/Saved/Config/WindowsNoEditor/DataPatches/' does not exist
+[2025.04.02-12.21.58:605][  0]UserSettings:Display: User's IP Country Code is PL
+[2025.04.02-12.21.58:624][  0]LogMemory:Display: Entered application state 'ConanSandboxStarting'.
+[2025.04.02-12.21.58:624][  0]LogModuleManager:Warning: ModuleManager: Module 'EnvironmentQueryEditor' not found - its StaticallyLinkedModuleInitializers function is null.
+[2025.04.02-12.21.58:625][  0]LogHoudiniEngine: Starting the Houdini Engine module.
+[2025.04.02-12.21.58:711][  0]LogAnsel: Tried to load ../../../Engine/Plugins/Runtime/Nvidia/Ansel/Binaries/ThirdParty/AnselSDK64.dll : success=1
+[2025.04.02-12.21.58:711][  0]VivoxCore: FVivoxCoreModule::StartupModule
+[2025.04.02-12.21.58:865][  0]VivoxCore: Loaded Library (../../../ConanSandbox/Plugins/VivoxCoreUE4Plugin/Source/ThirdParty/VivoxCoreLibrary/Windows/vivoxsdk/x64/Release/ortp.dll)
+[2025.04.02-12.21.59:068][  0]VivoxCore: Loaded Library (../../../ConanSandbox/Plugins/VivoxCoreUE4Plugin/Source/ThirdParty/VivoxCoreLibrary/Windows/vivoxsdk/x64/Release/vivoxsdk.dll)
+[2025.04.02-12.21.59:072][  0]LogUObjectArray: 58870 objects as part of root set at end of initial load.
+[2025.04.02-12.21.59:072][  0]LogUObjectArray: 2 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2025.04.02-12.21.59:072][  0]LogUObjectAllocator: 11278136 out of 13000000 bytes used by permanent object pool.
+[2025.04.02-12.21.59:072][  0]LogUObjectArray: CloseDisregardForGC: 58870/58870 objects in disregard for GC pool
+[2025.04.02-12.21.59:083][  0]LogRcon:Display: Rcon disabled.
+[2025.04.02-12.21.59:083][  0]LogModManager: Searching for mod/dlc controllers.
+[2025.04.02-12.21.59:106][  0]LogModManager: Skipping early (async scan). Time taken: 0.728287 [s]
+[2025.04.02-12.21.59:106][  0]LogEngine: Initializing Engine...
+[2025.04.02-12.21.59:147][  0]LogStreaming:Error: Couldn't find file for package /Engine/EditorMaterials/GizmoMaterial requested by async loading code. NameToLoad: /Engine/EditorMaterials/GizmoMaterial
+[2025.04.02-12.21.59:147][  0]LogStreaming:Error: Found 0 dependent packages...
+[2025.04.02-12.21.59:147][  0]LogEngine: ERROR: Failed to load special material '/Engine/EditorMaterials/GizmoMaterial.GizmoMaterial'. This will probably have bad consequences (depending on its use)
+[2025.04.02-12.21.59:702][  0]LogInit: XAudio2 using 'Głośniki (2- Logitech PRO X Wireless Gaming Headset)' : 8 channels at 44.1 kHz using 16 bits per sample (channel mask 0x63f)
+[2025.04.02-12.21.59:715][  0]LogInit: FAudioDevice initialized.
+[2025.04.02-12.21.59:726][  0]LogInit: Texture streaming: Enabled
+[2025.04.02-12.22.00:335][  0]GraniteRenderLog: Granite CreateNewCpuCache: slot 0, packagePrefix None, cacheSizeInBytes 402653184, pageSizeInBytes 1048576
+[2025.04.02-12.22.00:347][  0]GraniteRenderLog: Granite CreateNewGpuCache: slot 0, packagePrefix None, cacheSizeInBytes 369098752, hardwarePageTable <false>, textureFormat BC7, channelTransform SRGB, tile 144 x 144 border 8
+[2025.04.02-12.22.00:396][  0]LogAsyncObjectFinder:Error: FAsyncObjectFinder: Asset "/Game/UI/UIModuleTable.UIModuleTable" (used by "/Engine/Transient.GUIModuleController_0") should have been loaded at this point! Please fix! Note: Will try to syncload the asset to continue execution.
+[2025.04.02-12.22.00:414][  0]ConanSandbox:Warning: Forced to sync load MapData table
+[2025.04.02-12.22.00:843][  0]GraniteRenderLog: Granite CreateNewGpuCache: slot 1, packagePrefix None, cacheSizeInBytes 163577856, hardwarePageTable <false>, textureFormat BC5, channelTransform UNORM, tile 144 x 144 border 8
+[2025.04.02-12.22.00:843][  0]LogFuncomTelemetryCore: Initialized RunnableWork for Pub/Sub reporting in separate thread.
+[2025.04.02-12.22.00:843][  0]LogFuncomTelemetryCore:Display: reporting thread started
+[2025.04.02-12.22.00:843][  0]LogFuncomTelemetryCore:Display: reporting thread reference count: 1
+[2025.04.02-12.22.00:843][  0]LogInit:Display: Game Engine Initialized.
+[2025.04.02-12.22.00:843][  0]LogInit:Display: Starting Game.
+[2025.04.02-12.22.00:843][  0]LogInit: WinSock: I am DESKTOP-8O6TVH0 (26.72.203.77:0)
+[2025.04.02-12.22.00:855][  0]SourceServerQueriesClient:Display: Started SourceServerQueriesClient on port 27015
+[2025.04.02-12.22.00:855][  0]LogNet: Browse: /Game/Maps/Startup?Name=Player
+[2025.04.02-12.22.00:855][  0]ConanSandbox: PreLoadMap_Callback begin
+[2025.04.02-12.22.00:855][  0]GUI:Display: Unloading cached in-game GUI modules...
+[2025.04.02-12.22.00:855][  0]ConanSandbox: PreLoadMap_Callback end. Time taken: 0.478062 [s]
+[2025.04.02-12.22.01:126][  0]LogLoad: LoadMap: /Game/Maps/Startup?Name=Player
+[2025.04.02-12.22.01:791][  0]LogAIModule: Creating AISystem for world Startup
+[2025.04.02-12.22.01:791][  0]LogLoad: Game class is 'StartupGameMode_C'
+[2025.04.02-12.22.01:793][  0]LogWorld: Bringing World /Game/Maps/Startup.Startup up for play (max tick rate 0) at 2025.04.02-14.22.01
+[2025.04.02-12.22.01:793][  0]LogWorld: Bringing up level for play took: 0.000559
+[2025.04.02-12.22.01:797][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.04.02-12.22.01:797][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.04.02-12.22.01:797][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2025.04.02-12.22.01:797][  0]LogEngine: BlockTillLevelStreamingCompleted: 0
+[2025.04.02-12.22.01:797][  0]GUI:Warning: Code: UConsoleUserSettingsSave::MarkConsoleSettingsAsDirty() called to flush settings on PC; flushing all .ini files in response.
+[2025.04.02-12.22.02:198][  0]LogConsoleManager:Warning: Setting the console variable 't.MaxFPS' to '0' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '144'
+[2025.04.02-12.22.02:198][  0]LogConsoleManager:Warning: Setting the console variable 'r.VolumetricFog' to '1' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2025.04.02-12.22.02:198][  0]LogConsoleManager:Warning: Setting the console variable 'r.MotionBlurQuality' to '3' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2025.04.02-12.22.02:200][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.04.02-12.22.02:200][  0]LogLoad: Took 1.073565 seconds to LoadMap(/Game/Maps/Startup)
+[2025.04.02-12.22.02:200][  0]ConanSandbox: Requested Message FlsLoggingIn. (Currently Active message NONE)
+[2025.04.02-12.22.02:200][  0]ConanSandbox: MessageBoxWidget: Logging In Connecting to Funcom Live Services
+[2025.04.02-12.22.02:302][  0]VivoxCore: Created VoiceClient
+[2025.04.02-12.22.02:537][  0]LogLoad: (Engine Initialization) Total time: 31.10 seconds
+[2025.04.02-12.22.02:537][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2025.04.02-12.22.02:568][  0]LogAnsel: We reckon 0.010000 meters to 1 world unit
+[2025.04.02-12.22.02:582][  0]LogStreaming:Display: Suspending async loading (1)
+[2025.04.02-12.22.02:609][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 1 prioritized culture(s) in 0.033538 seconds
+[2025.04.02-12.22.02:630][  0]LogStreaming:Display: Resuming async loading (0)
+[2025.04.02-12.22.02:663][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:2).
+[2025.04.02-12.22.02:893][ 18]LogStreaming:Error: Couldn't find file for package /Game/BPI_TargetDistributionComponent requested by async loading code. NameToLoad: /Game/BPI_TargetDistributionComponent
+[2025.04.02-12.22.02:893][ 18]LogStreaming:Error: Found 1 dependent packages...
+[2025.04.02-12.22.02:893][ 18]LogStreaming:Error:   /Game/Systems/AI/NewAI/BPTargetDistributionComponent
+[2025.04.02-12.22.03:912][145]LogFuncomLiveServices:Display: RequestIdentityToken Completed: TokenData - [1722bab30ae278c1f556f523dc9f3397] Counter - [b0aeefbb38b093bea9d1640e0dfa1e14].
+[2025.04.02-12.22.05:676][399]LogFuncomLiveServices:Display: Login completed: [2393461e4769b7c0376348165af882a3]
+.
+[2025.04.02-12.22.06:120][439]UnitTest:Display: ClientState: 1
+[2025.04.02-12.22.06:120][439]ConanSandbox: RefreshAsyncLoadState [Static asset finder] Time: 0.000000 [s] (async)
+[2025.04.02-12.22.06:120][439]ConanSandbox: RefreshAsyncLoadState [Map data] Time: 0.000000 [s] (async)
+[2025.04.02-12.22.06:120][439]ConanSandbox: RefreshAsyncLoadState [Game tables] Time: 0.000000 [s] (async)
+[2025.04.02-12.22.06:120][439]ConanSandbox: RefreshAsyncLoadState [Audio] Time: 0.000000 [s] (async)
+[2025.04.02-12.22.06:120][439]LogModManager: Searching for mod/dlc controllers.
+[2025.04.02-12.22.06:121][439]LogModManager: Skipping early (async scan). Time taken: -0.256177 [s]
+[2025.04.02-12.22.06:121][439]ConanSandbox: RefreshAsyncLoadState [Mod controllers] Time: 0.000000 [s] (async)
+[2025.04.02-12.22.06:121][439]ConanSandbox: RefreshAsyncLoadState [Done] Time: 0.000000 [s] (async)
+[2025.04.02-12.22.06:121][439]ConanSandbox:Warning: Voice Enable State :FALSE (ClientS:0)
+[2025.04.02-12.22.06:333][439]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3415): UConanGameInstance::SetClientState: ToggleIngameLoadingScreen(false), m_ClientState=1
+[2025.04.02-12.22.06:333][439]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(85): AConanHUD::RemoveIngameLoadingScreen_Implementation: RemoveIngameLoadingScreen
+[2025.04.02-12.22.06:333][439]ConanSandbox: RemoveIngameLoadingScreen
+[2025.04.02-12.22.06:333][439]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(77): AConanHUD::RemoveIngameLoadingScreenNative: ActivateModule("IngameLoadingScreen", false)
+[2025.04.02-12.22.06:333][439]LogSilentEventQueue:Warning: Attempted to remove a Persistent Silent Event of category pse_Level which was not registered!
+[2025.04.02-12.22.06:333][439]LogSilentEventQueue:Warning: Failed to remove persistent event. Category pse_Level
+[2025.04.02-12.22.06:345][440]LogStreamableManager:Error: RequestAsyncLoad called with empty or only null assets!
+[2025.04.02-12.22.06:345][440]LogStreamableManager:Error: RequestAsyncLoad called with empty or only null assets!
+[2025.04.02-12.22.06:356][440]Network:Display: Presence: "" => "PS_MainMenu".
+[2025.04.02-12.22.06:376][440]LogMediaAssets:Warning: UMediaPlayer::OpenSource called with null MediaSource
+[2025.04.02-12.22.06:408][442]LogWmfMedia:Warning: Possible loss of audio quality in stream 0 due to sample rate != 44100 Hz
+[2025.04.02-12.22.06:433][444]LogFuncomLiveServices:Display: 1 memberships
+[2025.04.02-12.22.07:781][622]LogFuncomLiveServices:Display: [211548fc27614ce376b99140de1e8c47]
+[2025.04.02-12.22.07:796][625]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.252 seconds.
+[2025.04.02-12.22.07:850][632]ConanSandbox: UConanGameInstance::OnLoginStatusChanged: LoggedIn
+[2025.04.02-12.22.07:850][632]LogDataMiningUserTracker:Display: LoginStatusChanged: 0 => 2, LocalUserNum: 0, NewId: Waste of Air [0x11000011962550C]
+[2025.04.02-12.22.08:286][681]ConanSandbox: Force closing message box type FlsLoggingIn. 
+[2025.04.02-12.22.08:286][681]ConanSandbox: Check for modded session...
+[2025.04.02-12.22.08:286][681]ConanSandbox: Continuing previous session: Continuing on map '/Game/Maps/ConanSandbox/ConanSandbox' without coop enabled
+[2025.04.02-12.22.08:286][681]ConanSandbox:Warning: Not enough time has passed, using cached entitlements.
+[2025.04.02-12.22.08:334][681]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeLevel
+[2025.04.02-12.22.08:334][681]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeDelay
+[2025.04.02-12.22.08:334][681]GUI:Warning: Code: SettingsServerBase is missing widget for: RestrictPurgeTime
+[2025.04.02-12.22.08:334][681]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeRestrictionWeekdayStart
+[2025.04.02-12.22.08:334][681]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeRestrictionWeekdayEnd
+[2025.04.02-12.22.08:334][681]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeRestrictionWeekendStart
+[2025.04.02-12.22.08:334][681]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeRestrictionWeekendEnd
+[2025.04.02-12.22.08:334][681]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgePreparationTime
+[2025.04.02-12.22.08:334][681]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeDuration
+[2025.04.02-12.22.08:334][681]GUI:Warning: Code: SettingsServerBase is missing widget for: MinPurgeOnlinePlayers
+[2025.04.02-12.22.08:334][681]GUI:Warning: Code: SettingsServerBase is missing widget for: AllowBuilding
+[2025.04.02-12.22.08:334][681]GUI:Warning: Code: SettingsServerBase is missing widget for: ClanPurgeTrigger
+[2025.04.02-12.22.08:334][681]GUI:Warning: Code: SettingsServerBase is missing widget for: ClanScoreUpateFrequency
+[2025.04.02-12.22.08:334][681]GUI:Warning: Code: SettingsServerBase is missing widget for: InitialPurgeDelay
+[2025.04.02-12.22.08:334][681]GUI:Warning: Code: SettingsServerBase is missing widget for: EnablePurge
+[2025.04.02-12.22.08:336][681]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\ServerList\HostLocalBase.cpp(356): UHostLocalBase::OnGameStarted: ToggleIngameLoadingScreen(true), m_ClientState=1
+[2025.04.02-12.22.08:336][681]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3131): UConanGameInstance::ToggleIngameLoadingScreen: ShowIngameLoadingScreen("")
+[2025.04.02-12.22.08:336][681]ConanSandbox: ShowIngameLoadingScreen: 
+[2025.04.02-12.22.08:336][681]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(55): AConanHUD::ShowIngameLoadingScreenNative: ActivateModule("IngameLoadingScreen", true)
+[2025.04.02-12.22.08:346][681]UnitTest:Display: ClientState: 2
+[2025.04.02-12.22.08:346][681]ConanSandbox: RefreshAsyncLoadState [Static asset finder] Time: 0.000000 [s] (async)
+[2025.04.02-12.22.08:346][681]ConanSandbox: RefreshAsyncLoadState [Map data] Time: 0.000000 [s] (async)
+[2025.04.02-12.22.08:346][681]ConanSandbox: RefreshAsyncLoadState [Game tables] Time: 0.000000 [s] (async)
+[2025.04.02-12.22.08:346][681]ConanSandbox: RefreshAsyncLoadState [Audio] Time: 0.000000 [s] (async)
+[2025.04.02-12.22.08:346][681]LogModManager: Searching for mod/dlc controllers.
+[2025.04.02-12.22.08:346][681]LogModManager: Skipping early (async scan). Time taken: -0.030979 [s]
+[2025.04.02-12.22.08:346][681]ConanSandbox: RefreshAsyncLoadState [Mod controllers] Time: 0.000000 [s] (async)
+[2025.04.02-12.22.08:346][681]ConanSandbox: RefreshAsyncLoadState [Done] Time: 0.000000 [s] (async)
+[2025.04.02-12.22.08:346][681]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3415): UConanGameInstance::SetClientState: ToggleIngameLoadingScreen(true), m_ClientState=2
+[2025.04.02-12.22.08:346][681]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3131): UConanGameInstance::ToggleIngameLoadingScreen: ShowIngameLoadingScreen("")
+[2025.04.02-12.22.08:346][681]ConanSandbox: ShowIngameLoadingScreen: 
+[2025.04.02-12.22.08:346][681]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(55): AConanHUD::ShowIngameLoadingScreenNative: ActivateModule("IngameLoadingScreen", true)
+[2025.04.02-12.22.08:346][681]BattlEyeLogging: BattlEyeClient: ClientLoadingScreenStarted
+[2025.04.02-12.22.08:698][726]LogFriendsManager: Players Presence Status Updated
+[2025.04.02-12.22.08:788][739]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2025.04.02-12.22.08:788][739]LogGameState: Match State Changed from InProgress to LeavingMap
+[2025.04.02-12.22.08:788][739]LogNet: Browse: /Game/Maps/ConanSandbox/ConanSandbox?listen?bUseLobby
+[2025.04.02-12.22.08:788][739]ConanSandbox: PreLoadMap_Callback begin
+[2025.04.02-12.22.08:788][739]UnitTest:Display: ClientState: 2
+[2025.04.02-12.22.08:788][739]ConanSandbox: RefreshAsyncLoadState [Static asset finder] Time: 0.411128 [s] 
+[2025.04.02-12.22.08:788][739]ConanSandbox: RefreshAsyncLoadState [Map data] Time: 0.411140 [s] 
+[2025.04.02-12.22.08:788][739]ConanSandbox: RefreshAsyncLoadState [Game tables] Time: 0.411150 [s] 
+[2025.04.02-12.22.10:676][739]ConanSandbox: RefreshAsyncLoadState [Granite precaching] Time: 2.298908 [s] 
+[2025.04.02-12.22.10:676][739]ConanSandbox: RefreshAsyncLoadState [Audio] Time: 2.298951 [s] 
+[2025.04.02-12.22.10:676][739]LogModManager: Searching for mod/dlc controllers.
+[2025.04.02-12.22.15:593][739]LogModManager: AddCurrentlyLoadedModControllers
+[2025.04.02-12.22.15:594][739]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Nemedia/DLC_Nemedia_Modcontroller.DLC_Nemedia_Modcontroller_C
+[2025.04.02-12.22.15:606][739]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Yamatai/DLC_Yamatai_ModController.DLC_Yamatai_ModController_C
+[2025.04.02-12.22.15:619][739]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Turan/DLC_Turan_Modcontroller.DLC_Turan_Modcontroller_C
+[2025.04.02-12.22.15:631][739]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Siptah/DLC_Siptah_Modcontroller.DLC_Siptah_Modcontroller_C
+[2025.04.02-12.22.15:648][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 150, overwriting.
+[2025.04.02-12.22.15:648][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/UI/CharacterCreation/DataTables/Male_HeadSelections.Male_HeadSelections with RowName: 5, overwriting.
+[2025.04.02-12.22.15:648][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/UI/CharacterCreation/DataTables/Male_HeadSelections.Male_HeadSelections with RowName: 6, overwriting.
+[2025.04.02-12.22.15:648][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/UI/CharacterCreation/DataTables/Male_HeadSelections.Male_HeadSelections with RowName: 7, overwriting.
+[2025.04.02-12.22.15:648][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/UI/CharacterCreation/DataTables/Male_HeadSelections.Male_HeadSelections with RowName: 8, overwriting.
+[2025.04.02-12.22.15:648][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/UI/CharacterCreation/DataTables/Male_HeadSelections.Male_HeadSelections with RowName: 9, overwriting.
+[2025.04.02-12.22.15:648][739]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_RPPack/DLC_RPpack_ModController.DLC_RPpack_ModController_C
+[2025.04.02-12.22.15:658][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 120, overwriting.
+[2025.04.02-12.22.15:659][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 121, overwriting.
+[2025.04.02-12.22.15:659][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 122, overwriting.
+[2025.04.02-12.22.15:659][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 123, overwriting.
+[2025.04.02-12.22.15:659][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 124, overwriting.
+[2025.04.02-12.22.15:659][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 125, overwriting.
+[2025.04.02-12.22.15:659][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 126, overwriting.
+[2025.04.02-12.22.15:659][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 127, overwriting.
+[2025.04.02-12.22.15:659][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 128, overwriting.
+[2025.04.02-12.22.15:659][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 140, overwriting.
+[2025.04.02-12.22.15:659][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 141, overwriting.
+[2025.04.02-12.22.15:659][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 142, overwriting.
+[2025.04.02-12.22.15:659][739]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Riders/DLC_Riders_ModController.DLC_Riders_ModController_C
+[2025.04.02-12.22.15:671][739]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_RiddleOfSteel/DLC_RiddleOfSteel_ModController.DLC_RiddleOfSteel_ModController_C
+[2025.04.02-12.22.15:677][739]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Pict/DLC_Pict_Modcontroller.DLC_Pict_Modcontroller_C
+[2025.04.02-12.22.15:691][739]LogModManager: AddActiveModControllerClass: /Game/DLC/Special/BP_Special_ModController.BP_Special_ModController_C
+[2025.04.02-12.22.15:822][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 160, overwriting.
+[2025.04.02-12.22.15:823][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 161, overwriting.
+[2025.04.02-12.22.15:823][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 162, overwriting.
+[2025.04.02-12.22.15:823][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 163, overwriting.
+[2025.04.02-12.22.15:823][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 164, overwriting.
+[2025.04.02-12.22.15:823][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 165, overwriting.
+[2025.04.02-12.22.15:823][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 166, overwriting.
+[2025.04.02-12.22.15:823][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 167, overwriting.
+[2025.04.02-12.22.15:823][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 168, overwriting.
+[2025.04.02-12.22.15:823][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 169, overwriting.
+[2025.04.02-12.22.15:823][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 170, overwriting.
+[2025.04.02-12.22.15:823][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 171, overwriting.
+[2025.04.02-12.22.15:823][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 172, overwriting.
+[2025.04.02-12.22.15:823][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 173, overwriting.
+[2025.04.02-12.22.15:823][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 174, overwriting.
+[2025.04.02-12.22.15:824][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 175, overwriting.
+[2025.04.02-12.22.15:824][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 176, overwriting.
+[2025.04.02-12.22.15:824][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 177, overwriting.
+[2025.04.02-12.22.15:824][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 178, overwriting.
+[2025.04.02-12.22.15:824][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 179, overwriting.
+[2025.04.02-12.22.15:824][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 180, overwriting.
+[2025.04.02-12.22.15:824][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 181, overwriting.
+[2025.04.02-12.22.15:824][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 182, overwriting.
+[2025.04.02-12.22.15:824][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 183, overwriting.
+[2025.04.02-12.22.15:824][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 184, overwriting.
+[2025.04.02-12.22.15:824][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 185, overwriting.
+[2025.04.02-12.22.15:824][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 186, overwriting.
+[2025.04.02-12.22.15:824][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/Characters/Emotes/EmotesDataTable.EmotesDataTable with RowName: 187, overwriting.
+[2025.04.02-12.22.15:833][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/UI/UIModuleTable.UIModuleTable with RowName: RealMoneyConfirmationDialog, overwriting.
+[2025.04.02-12.22.15:833][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/UI/UIModuleTable.UIModuleTable with RowName: Chargeback, overwriting.
+[2025.04.02-12.22.15:833][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/UI/UIModuleTable.UIModuleTable with RowName: ChargebackBanned, overwriting.
+[2025.04.02-12.22.15:833][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/UI/UIModuleTable.UIModuleTable with RowName: ItemStoreInspection, overwriting.
+[2025.04.02-12.22.15:833][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/UI/UIModuleTable.UIModuleTable with RowName: CurrencyStore, overwriting.
+[2025.04.02-12.22.15:833][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/UI/UIModuleTable.UIModuleTable with RowName: EmailCollectionUpdatePopUp, overwriting.
+[2025.04.02-12.22.15:833][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/UI/UIModuleTable.UIModuleTable with RowName: Stores, overwriting.
+[2025.04.02-12.22.15:833][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/UI/UIModuleTable.UIModuleTable with RowName: StoreItemConfirmationDialog, overwriting.
+[2025.04.02-12.22.15:833][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/UI/UIModuleTable.UIModuleTable with RowName: EmailCollectionLoginNotifyPopUp, overwriting.
+[2025.04.02-12.22.15:833][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/UI/UIModuleTable.UIModuleTable with RowName: EmailCollectionVerificationPopUp, overwriting.
+[2025.04.02-12.22.15:833][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/UI/UIModuleTable.UIModuleTable with RowName: EmailCollectionRemovalPopUp, overwriting.
+[2025.04.02-12.22.15:833][739]LogModController:Warning: AModController::MergeDataTables - Found existing table entry for /Game/UI/UIModuleTable.UIModuleTable with RowName: DataCollectionPolicyPopUp, overwriting.
+[2025.04.02-12.22.15:836][739]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Khitai/BP_ModController_Khitai_DLC.BP_ModController_Khitai_DLC_C
+[2025.04.02-12.22.15:850][739]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_EARhino/DLC_EARhino_Modcontroller.DLC_EARhino_Modcontroller_C
+[2025.04.02-12.22.15:853][739]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_BloodAndSand/DLC_BAS_Modcontroller.DLC_BAS_Modcontroller_C
+[2025.04.02-12.22.15:866][739]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Argos/DLC_Argos_ModController.DLC_Argos_ModController_C
+[2025.04.02-12.22.15:878][739]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Aquilonia/DLC_Aquilonia_ModController.DLC_Aquilonia_ModController_C
+[2025.04.02-12.22.15:891][739]LogModManager: AddActiveModControllerClass: /Game/DLC/ConanSword_DLC/BP_ConanSword_DLC_ModController.BP_ConanSword_DLC_ModController_C
+[2025.04.02-12.22.15:895][739]LogModManager: AddActiveModControllerClass: /Game/DLC/ConanArmor_DLC/BP_ConanArmor_DLC_ModController.BP_ConanArmor_DLC_ModController_C
+[2025.04.02-12.22.15:901][739]LogModManager: Done searching for mod controllers. Time taken: 5.523751 [s]
+[2025.04.02-12.22.15:901][739]ConanSandbox: RefreshAsyncLoadState [Mod controllers] Time: 7.523775 [s] 
+[2025.04.02-12.22.15:901][739]ConanSandbox: RefreshAsyncLoadState [Done] Time: 7.523784 [s] 
+[2025.04.02-12.22.15:920][739]ConanSandbox: PreLoadMap_Callback end. Time taken: 7.542672 [s]
+[2025.04.02-12.22.15:920][739]LogLoad: LoadMap: /Game/Maps/ConanSandbox/ConanSandbox?listen?bUseLobby
+[2025.04.02-12.22.17:544][739]LogStreaming:Error: Couldn't find file for package /Engine/EditorMeshes/MatineeCam_SM requested by async loading code. NameToLoad: /Engine/EditorMeshes/MatineeCam_SM
+[2025.04.02-12.22.17:544][739]LogStreaming:Error: Found 1 dependent packages...
+[2025.04.02-12.22.17:544][739]LogStreaming:Error:   /Game/Maps/ConanSandbox/ConanSandbox
+[2025.04.02-12.22.17:561][739]LogNavMesh: dtNavMesh allocations: dtMeshTile (176) x m_maxTiles (50000) = 8800000 bytes, lut: dtMeshTile* (8) x m_tileLutSize (16384) = 131072 bytes
+[2025.04.02-12.22.17:668][739]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(482): UConanGameInstance::OnPreWorldInitialization: ToggleIngameLoadingScreen(false), m_ClientState=2
+[2025.04.02-12.22.17:683][739]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(490): UConanGameInstance::OnPreWorldInitialization: ToggleIngameLoadingScreen(true), m_ClientState=2
+[2025.04.02-12.22.17:683][739]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3136): UConanGameInstance::ToggleIngameLoadingScreen: ActivateModule("IngameLoadingScreen", true)
+[2025.04.02-12.22.17:688][739]LogAIModule: Creating AISystem for world ConanSandbox
+[2025.04.02-12.22.17:688][739]LogLoad: Game class is 'BaseGameMode_C'
+[2025.04.02-12.22.17:689][739]LogFuncomLiveServices:Display: Setting up listen server, trying to use co-op driver.
+[2025.04.02-12.22.17:689][739]PacketHandlerLog: DDoS detection status: detection enabled: 1 analytics enabled: 1
+[2025.04.02-12.22.17:689][739]LogPeerConnectionSocketSubsystem:Error: Dreamworld::FPeerConnectionSocketSubsystem::GetHostName is not supported.
+[2025.04.02-12.22.17:689][739]WebRTC/PeerConnection: gethostname failed (SE_NO_ERROR)
+[2025.04.02-12.22.17:689][739]LogPeerConnectionSocketSubsystem:Error: Dreamworld::FPeerConnectionSocketSubsystem::GetHostByName is not supported.
+[2025.04.02-12.22.17:689][739]GetHostByName failed (SE_EADDRNOTAVAIL)
+[2025.04.02-12.22.17:689][739]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.04.02-12.22.17:689][739]LogNet: GameNetDriver PeerConnectionNetDriver_0 IpNetDriver listening on port 0
+[2025.04.02-12.22.17:689][739]LogPeerConnectionSocketSubsystem:Warning: PeerConnectionSocketSubsystem::Private::GetLocalAddrFromOssSession: Unable to determine local endpoint name: No GameSession session found.
+[2025.04.02-12.22.17:689][739]LogPeerConnectionSocketSubsystem:Warning: PeerConnectionSocketSubsystem::Private::GetLocalAddrFromFirstLocalPlayer: Unable to determine local endpoint name: No local player found.
+[2025.04.02-12.22.17:689][739]LogPeerConnectionSocketSubsystem:Display: PeerConnectionSocketSubsystem::Private::GetLocalAddrFromOssIdentity: Local endpoint name from user 0: Steam%0A76561198386140428@fls.funcom.com+7777.
+[2025.04.02-12.22.17:698][739]LogLevelActorContainer: Created LevelActorCluster (268) for /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox:PersistentLevel with 277 objects, 0 referenced clusters and 13 mutable objects.
+[2025.04.02-12.22.17:698][739]LogWorld: Bringing World /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox up for play (max tick rate 144) at 2025.04.02-14.22.17
+[2025.04.02-12.22.17:698][739]LogMemory:Display: Entered application state 'InitGame'.
+[2025.04.02-12.22.17:799][739]ConanSandbox: Init map with unique name 'The Exiled Lands' and unique ID (CRC32 hash) 1988349854
+[2025.04.02-12.22.17:862][739]LogDreamworld:Display: CreateBackup: database c:\dysk d\steam\steamapps\common\conan exiles\conansandbox\saved\game.db backup complete.
+[2025.04.02-12.22.17:876][739]Persistence: ConanDBHelper::Maintenance_BuildingInstance(): Removed by cell: 0 Grid size: 10000 [uu]
+[2025.04.02-12.22.17:876][739]Persistence: ConanDBHelper::Maintenance_BuildingInstance(): Removed by class: 0
+[2025.04.02-12.22.17:876][739]Persistence: ConanDBHelper::Maintenance(): Building instances - Success
+[2025.04.02-12.22.17:879][739]Persistence: ConanDBHelper::Maintenance(): Placeables - Success
+[2025.04.02-12.22.17:882][739]Persistence: ConanDBHelper::Maintenance_DuplicatedFeats(): No duplicates
+[2025.04.02-12.22.17:882][739]Persistence: ConanDBHelper::Maintenance(): Duplicated feats - Success
+[2025.04.02-12.22.17:885][739]Persistence: ConanDBHelper::Maintenance_OrphanedRows(): Table item_inventory is ok
+[2025.04.02-12.22.17:888][739]Persistence: ConanDBHelper::Maintenance_OrphanedRows(): Table item_properties is ok
+[2025.04.02-12.22.17:891][739]Persistence: ConanDBHelper::Maintenance_OrphanedRows(): Table properties is ok
+[2025.04.02-12.22.17:895][739]Persistence: ConanDBHelper::Maintenance_OrphanedRows(): Table buildings is ok
+[2025.04.02-12.22.17:899][739]Persistence: ConanDBHelper::Maintenance_OrphanedRows(): Table building_instances is ok
+[2025.04.02-12.22.17:899][739]Persistence: ConanDBHelper::Maintenance(): Orphaned rows - Success
+[2025.04.02-12.22.17:920][739]Persistence: ConanDBHelper::Maintenance(): Database file - Success
+[2025.04.02-12.22.17:920][739]ConanSandbox:Display: ConanDBHelper Maintenance completed in 0.1 seconds.
+[2025.04.02-12.22.17:951][739]Main:Display: Creating ServiceActors for "/Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox:PersistentLevel.BaseGameState_C_0"...
+[2025.04.02-12.22.17:954][739]Main:Display: Registered service actor "BP_ComboRulesLookup_C" with interface "/Game/Systems/Combat/ComboSystem/BP_ComboRulesLookupInterface.BP_ComboRulesLookupInterface_C".
+[2025.04.02-12.22.17:955][739]Main:Display: Registered service actor "BP_CompanionIncidentalAudioServiceActor_C" with interface "/Game/Systems/Audio/BPI_IncidentalAudioServiceInterface.BPI_IncidentalAudioServiceInterface_C".
+[2025.04.02-12.22.18:050][739]Main:Display: Registered service actor "BP_ItemTagService_C" with interface "/Game/Systems/Inventory/Tags/BP_ItemTagServiceInterface.BP_ItemTagServiceInterface_C".
+[2025.04.02-12.22.18:056][739]Main:Display: Registered service actor "BP_EventManager_C" with interface "/Game/DLC/Special/Events/EventSystems/BPI_EventSystem.BPI_EventSystem_C".
+[2025.04.02-12.22.18:056][739]Main:Display: Registered service actor "BP_EventManager_C" with interface "/Game/Gameplay/BPI_EventSystem_External.BPI_EventSystem_External_C".
+[2025.04.02-12.22.18:057][739]Main:Display: Registered service actor "BP_RevealCorruption_Manager_C" with interface "/Game/Sorcery/Spells/Reveal_Corruption/I_RevealedCorruption.I_RevealedCorruption_C".
+[2025.04.02-12.22.18:058][739]Main:Display: Registered service actor "BP_QuestNPCSpawningManager_C" with interface "/Game/Systems/Quest/BPI_QuestNPCSpawning.BPI_QuestNPCSpawning_C".
+[2025.04.02-12.22.18:065][739]Main:Display: Registered service actor "BP_ThrallCageManager_ExiledLands_C" with interface "/Game/Systems/Cheats/I_ThrallCageManager.I_ThrallCageManager_C".
+[2025.04.02-12.22.18:065][739]Main:Display: Registered service actor "BP_KurakTeleporter_Manager_C" with interface "/Game/Sorcery/Content/Teleporter/I_KurakTeleporter.I_KurakTeleporter_C".
+[2025.04.02-12.22.18:072][739]LogWorld: Bringing up level for play took: 0.380911
+[2025.04.02-12.22.18:073][739]LogLongPackageNames:Warning: URL: :0//Game/Maps/ConanSandbox/ConanSandbox: Name may not contain the following characters: :
+[2025.04.02-12.22.18:074][739]LogOnline:Warning: STEAM: No game present to join for session (Game)
+[2025.04.02-12.22.18:074][739]Login:Display: [BaseGameMode_C_0] FindPlayerStart returns Translation: X=-47618.094 Y=274800.438 Z=-20549.344 Rotation: P=0.000000 Y=-95.786804 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2025.04.02-12.22.18:091][739]Login:Display: [FunCombat_PlayerController_C_0 None] User [4653d437a89ef272829660452805199f] logged in.
+[2025.04.02-12.22.18:091][739]Login:Display: [BaseGameMode_C_0] BaseGameMode.StartLogin PlayerID: {}
+[2025.04.02-12.22.18:091][739]LogMemory:Display: Entered application state 'StartPlay'.
+[2025.04.02-12.22.18:091][739]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.04.02-12.22.18:091][739]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.04.02-12.22.18:091][739]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2025.04.02-12.22.18:100][739]Persistence: Loading/Spawning active mod controllers, #16 expected
+[2025.04.02-12.22.18:103][739]Persistence: Loading mod controller: DLC_Nemedia_Modcontroller_C
+[2025.04.02-12.22.18:106][739]Persistence: Loading mod controller: DLC_Yamatai_ModController_C
+[2025.04.02-12.22.18:109][739]Persistence: Loading mod controller: DLC_Turan_Modcontroller_C
+[2025.04.02-12.22.18:112][739]Persistence: Loading mod controller: DLC_Siptah_Modcontroller_C
+[2025.04.02-12.22.18:114][739]Persistence: Loading mod controller: DLC_RPpack_ModController_C
+[2025.04.02-12.22.18:116][739]Persistence: Loading mod controller: DLC_Riders_ModController_C
+[2025.04.02-12.22.18:119][739]Persistence: Loading mod controller: DLC_RiddleOfSteel_ModController_C
+[2025.04.02-12.22.18:123][739]Persistence: Loading mod controller: DLC_Pict_Modcontroller_C
+[2025.04.02-12.22.18:127][739]Persistence: Loading mod controller: BP_Special_ModController_C
+[2025.04.02-12.22.18:131][739]Persistence: Loading mod controller: BP_ModController_Khitai_DLC_C
+[2025.04.02-12.22.18:134][739]Persistence: Loading mod controller: DLC_EARhino_Modcontroller_C
+[2025.04.02-12.22.18:137][739]Persistence: Loading mod controller: DLC_BAS_Modcontroller_C
+[2025.04.02-12.22.18:141][739]Persistence: Loading mod controller: DLC_Argos_ModController_C
+[2025.04.02-12.22.18:143][739]Persistence: Loading mod controller: DLC_Aquilonia_ModController_C
+[2025.04.02-12.22.18:146][739]Persistence: Loading mod controller: BP_ConanSword_DLC_ModController_C
+[2025.04.02-12.22.18:148][739]Persistence: Loading mod controller: BP_ConanArmor_DLC_ModController_C
+[2025.04.02-12.22.18:151][739]LogMemory:Display: Entered application state 'MatchStarting'.
+[2025.04.02-12.22.18:790][739]LogStreaming:Error: Couldn't find file for package /Engine/EditorLandscapeResources/DataLayer requested by async loading code. NameToLoad: /Engine/EditorLandscapeResources/DataLayer
+[2025.04.02-12.22.18:790][739]LogStreaming:Error: Found 1 dependent packages...
+[2025.04.02-12.22.18:790][739]LogStreaming:Error:   /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y2
+[2025.04.02-12.22.19:116][739]LogLevelActorContainer: Created LevelActorCluster (301) for /Game/Maps/ConanSandbox/Art/Art_CurseWall.Art_CurseWall:PersistentLevel with 16 objects, 29 referenced clusters and 16 mutable objects.
+[2025.04.02-12.22.19:127][739]LogLevelActorContainer: Created LevelActorCluster (302) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y2.heightmap_x5_y2:PersistentLevel with 1440 objects, 42 referenced clusters and 296 mutable objects.
+[2025.04.02-12.22.19:131][739]LogLevelActorContainer: Created LevelActorCluster (303) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y1.heightmap_x6_y1:PersistentLevel with 756 objects, 42 referenced clusters and 258 mutable objects.
+[2025.04.02-12.22.19:142][739]LogLevelActorContainer: Created LevelActorCluster (304) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y2.heightmap_x6_y2:PersistentLevel with 2180 objects, 42 referenced clusters and 318 mutable objects.
+[2025.04.02-12.22.19:146][739]LogLevelActorContainer: Created LevelActorCluster (305) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_North.Gameplay_NPCs_Swamp_North:PersistentLevel with 94 objects, 0 referenced clusters and 18 mutable objects.
+[2025.04.02-12.22.19:147][739]LogLevelActorContainer: Created LevelActorCluster (306) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_West.Gameplay_NPCs_Swamp_West:PersistentLevel with 10 objects, 0 referenced clusters and 3 mutable objects.
+[2025.04.02-12.22.19:148][739]LogEngine: BlockTillLevelStreamingCompleted: 1
+[2025.04.02-12.22.19:148][739]GlobalServerChannel:Display: Loading ServerSettings File: ../../../ConanSandbox/Saved/Config/WindowsNoEditor/ServerSettings.ini
+[2025.04.02-12.22.19:150][739]ConanSandbox:Display: AServerBlacklist::LoadSettings(): Blacklist file C:/Dysk D/Steam/steamapps/common/Conan Exiles/ConanSandbox/Saved//blacklist.txt does not exist
+[2025.04.02-12.22.19:150][739]ConanSandbox:Display: AServerBlacklist::LoadSettings(): Whitelist file C:/Dysk D/Steam/steamapps/common/Conan Exiles/ConanSandbox/Saved//whitelist.txt does not exist
+[2025.04.02-12.22.19:150][739]GlobalServerChannel:Display: Loading ServerSettings File: ../../../ConanSandbox/Saved/Config/WindowsNoEditor/ServerSettings.ini
+[2025.04.02-12.22.19:368][739]GUI:Warning: Code: UConsoleUserSettingsSave::MarkConsoleSettingsAsDirty() called to flush settings on PC; flushing all .ini files in response.
+[2025.04.02-12.22.19:369][739]LogConsoleManager:Warning: Setting the console variable 't.MaxFPS' to '0' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '144'
+[2025.04.02-12.22.19:369][739]LogConsoleManager:Warning: Setting the console variable 'r.VolumetricFog' to '1' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2025.04.02-12.22.19:369][739]LogConsoleManager:Warning: Setting the console variable 'r.MotionBlurQuality' to '3' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2025.04.02-12.22.19:375][739]Audio:Display: [ConanSandbox_C_1] Loading environment audio level: Client or listen server.
+[2025.04.02-12.22.19:375][739]LogLevel: ActivateLevel /Game/Maps/ConanSandbox/ConanSandbox_SOUND 1 1 0 0
+[2025.04.02-12.22.19:375][739]Audio:Display: [BP_SoundStage_C_0] Sound Stage on line
+[2025.04.02-12.22.19:375][739]LogPrimitiveComponent:Warning: CreateDynamicMaterialInstance on /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox:PersistentLevel.BP_SandStorm.SandstormMesh: Material index 1 is invalid.
+[2025.04.02-12.22.19:410][739]Persistence:Display: WorldPersistence: Loading 19 actors
+[2025.04.02-12.22.19:660][739]Persistence:Display: WorldPersistence: Finished loading 19 actors in 0.3 seconds.
+[2025.04.02-12.22.19:670][739]LogMemory:Display: Entered application state 'WorldPersistenceDone'.
+[2025.04.02-12.22.19:677][739]Persistence:Display: WorldPersistence: Found 1 alive characters
+[2025.04.02-12.22.19:677][739]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.04.02-12.22.19:677][739]ItemInventory:Error: Data: Map feat blacklist table not found, blacklist will not function.
+[2025.04.02-12.22.19:677][739]ItemInventory:Error: Data: Map feat blacklist table not found, blacklist will not function.
+[2025.04.02-12.22.19:677][739]ItemInventory:Error: Data: Map feat blacklist table not found, blacklist will not function.
+[2025.04.02-12.22.19:678][739]LogLoad: Took 3.758459 seconds to LoadMap(/Game/Maps/ConanSandbox/ConanSandbox)
+[2025.04.02-12.22.19:678][739]LogLoad: TickWorldTravel finished. Time taken: 11.301322 [s]
+[2025.04.02-12.22.20:329][740]ConanSandbox:Display: Character ID 24 has name Waste of Air and guild ID 0.
+[2025.04.02-12.22.20:338][740]LogNet:Warning: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 11.55, Realtime: 0.66. PeerConnectionNetDriver_0
+[2025.04.02-12.22.20:351][741]Login:Display: [FunCombat_PlayerController_C_0 None] UserCharacterList: Loading Character 0
+[2025.04.02-12.22.20:351][741]ConanSandbox:Warning: AConanCharacter::EnableLoadingInvulnerability enabled for BasePlayerChar_C_0
+[2025.04.02-12.22.20:351][741]Login:Display: [FunCombat_PlayerController_C_0 None] Creating ADHOC Player Start Translation: X=234796.109 Y=156410.719 Z=-20071.881 Rotation: P=0.000000 Y=63.544552 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2025.04.02-12.22.20:351][741]Login:Display: [FunCombat_PlayerController_C_0 None] PreBeginPlay login completed.
+[2025.04.02-12.22.20:351][741]ConanSandbox: UConanGameInstance::OnLoginStatusChanged: LoggedIn
+[2025.04.02-12.22.20:351][741]LogDataMiningUserTracker:Display: LoginStatusChanged: 0 => 2, LocalUserNum: 0, NewId: Waste of Air [0x11000011962550C]
+[2025.04.02-12.22.20:361][742]LogLevelActorContainer: Created LevelActorCluster (387) for /Game/Maps/ConanSandbox/ConanSandbox_SOUND.ConanSandbox_SOUND:PersistentLevel with 12 objects, 0 referenced clusters and 3 mutable objects.
+[2025.04.02-12.22.20:366][743]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\Character\ConanPlayerController.cpp(12917): AConanPlayerController::MakeClientWaitForStreamingWhenCloseTo_Implementation: SetTransitionState(2), TransitionState=0
+[2025.04.02-12.22.20:368][743]LogActor:Warning: UAILODComponent::OnChildAttachedToOwner - Attached (BP_PlayerLight_C_0) to ParentActor (BasePlayerChar_C_0) but bNetUseOwnerRelevancy is false, and has no AILODComponent
+[2025.04.02-12.22.20:368][743]Network:Display: Presence: "PS_MainMenu" => "PS_Default".
+[2025.04.02-12.22.20:415][743]ConanSandbox:Warning: AConanPlayerController::Possess - Calling BattlEye::PlayerPossessed(this)
+[2025.04.02-12.22.20:608][743]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\Character\ConanPlayerController.cpp(12917): AConanPlayerController::MakeClientWaitForStreamingWhenCloseTo_Implementation: SetTransitionState(2), TransitionState=2
+[2025.04.02-12.22.20:610][743]Streaming:Display: Waiting for streaming completed (game, unload)
+[2025.04.02-12.22.20:610][743]LogEngine: BlockTillLevelStreamingCompleted: 2
+[2025.04.02-12.22.20:614][743]Effects:Display: [BP_CloudParticleSpawner BasePlayerChar_C_0] Actual max particle count: 49
+[2025.04.02-12.22.20:621][744]Streaming:Display: Waiting for streaming completed (game, load)
+[2025.04.02-12.22.20:677][744]LogEngine: BlockTillLevelStreamingCompleted: 3
+[2025.04.02-12.22.20:679][744]Audio:Display: [ConanSandbox_C_1] Environment audio level loaded.
+[2025.04.02-12.22.20:689][745]Streaming:Display: Waiting for streaming completed (game): Done.
+[2025.04.02-12.22.20:689][745]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\Character\ConanPlayerController.cpp(7952): AConanPlayerController::Tick: SetTransitionState(3), TransitionState=2
+[2025.04.02-12.22.20:689][745]ConanGameInstanceLog:Warning: Levels loaded: 645/645
+[2025.04.02-12.22.20:706][746]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\Character\ConanPlayerController.cpp(3759): AConanPlayerController::ClientCompleteSpawn_Implementation: SetTransitionState(0), TransitionState=3
+[2025.04.02-12.22.20:706][746]UnitTest:Display: ClientState: 3
+[2025.04.02-12.22.20:706][746]ConanSandbox: RefreshAsyncLoadState [Static asset finder] Time: 0.329235 [s] (async)
+[2025.04.02-12.22.20:706][746]ConanSandbox: RefreshAsyncLoadState [Map data] Time: 0.329246 [s] (async)
+[2025.04.02-12.22.20:706][746]ConanSandbox: RefreshAsyncLoadState [Game tables] Time: 0.329255 [s] (async)
+[2025.04.02-12.22.20:706][746]ConanSandbox: RefreshAsyncLoadState [Audio] Time: 0.329262 [s] (async)
+[2025.04.02-12.22.20:706][746]ConanSandbox: RefreshAsyncLoadState [Mod controllers] Time: 0.329272 [s] (async)
+[2025.04.02-12.22.20:706][746]ConanSandbox: RefreshAsyncLoadState [Done] Time: 0.329279 [s] (async)
+[2025.04.02-12.22.20:785][746]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3415): UConanGameInstance::SetClientState: ToggleIngameLoadingScreen(false), m_ClientState=3
+[2025.04.02-12.22.20:785][746]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(85): AConanHUD::RemoveIngameLoadingScreen_Implementation: RemoveIngameLoadingScreen
+[2025.04.02-12.22.20:785][746]ConanSandbox: RemoveIngameLoadingScreen
+[2025.04.02-12.22.20:785][746]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(77): AConanHUD::RemoveIngameLoadingScreenNative: ActivateModule("IngameLoadingScreen", false)
+[2025.04.02-12.22.20:785][746]BattlEyeLogging: BattlEyeClient: ClientLoadingScreenStopped
+[2025.04.02-12.22.20:785][746]Main:Display: Entering game session (playing as Server)...
+[2025.04.02-12.22.20:785][746]LogSessionLengthTracker:Display: Tracking of session length started.
+[2025.04.02-12.22.20:787][746]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\Character\ConanPlayerController.cpp(3767): AConanPlayerController::ClientCompleteSpawn_Implementation: ToggleIngameLoadingScreen(false), m_ClientState=3
+[2025.04.02-12.22.20:787][746]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(85): AConanHUD::RemoveIngameLoadingScreen_Implementation: RemoveIngameLoadingScreen
+[2025.04.02-12.22.20:787][746]ConanSandbox: RemoveIngameLoadingScreen
+[2025.04.02-12.22.20:787][746]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(77): AConanHUD::RemoveIngameLoadingScreenNative: ActivateModule("IngameLoadingScreen", false)
+[2025.04.02-12.22.20:787][746]ConanSandbox:Warning: [HandleChatP2P]:Signed in player cannot chat!
+[2025.04.02-12.22.22:917][ 15]LogOnlineStoreSteam: Steam currency code: PLN.
+[2025.04.02-12.22.23:694][125]ConanSandbox:Warning: AConanCharacter::DisableLoadingInvulnerability disabled for BasePlayerChar_C_0
+[2025.04.02-12.22.26:761][566]LogNotifications:Error: AMQP failed opening SSL/TLS connection
+[2025.04.02-12.22.26:761][566]LogNotifications:Error: AMQP failed opening SSL/TLS connection
+[2025.04.02-12.22.26:761][566]LogNotifications:Error: AMQP Producer failed to connect
+[2025.04.02-12.22.26:761][566]LogNotifications:Error: AMQP Consumer failed to connect over TLS connection.
+[2025.04.02-12.22.26:761][566]LogNotifications:Error: AMQP library error in Consumer closing connection: socket is closed
+[2025.04.02-12.22.28:092][757]ConanSandbox: MessageBoxWidget: Are you sure? Are you sure? All clients will be disconnected.
+[2025.04.02-12.22.29:675][983]ConanSandbox: Requested Message Disconnecting. (Currently Active message NONE)
+[2025.04.02-12.22.29:675][983]ConanSandbox: MessageBoxWidget: Disconnecting Disconnecting from the game
+[2025.04.02-12.22.34:676][698]ConanSandbox: Requested Message Disconnecting. (Currently Active message Disconnecting)
+[2025.04.02-12.22.34:676][698]ConanSandbox:Warning: Message ID 14 not shown:Message already in message stack.
+[2025.04.02-12.22.34:676][698]LogOnline:Warning: STEAM: Can't destroy a null online session (Game)
+[2025.04.02-12.22.35:181][770]UnitTest:Display: ClientState: 0
+[2025.04.02-12.22.35:181][770]ConanSandbox: RefreshAsyncLoadState [Static asset finder] Time: 0.803987 [s] (async)
+[2025.04.02-12.22.35:181][770]ConanSandbox: RefreshAsyncLoadState [Map data] Time: 0.803999 [s] (async)
+[2025.04.02-12.22.35:181][770]ConanSandbox: RefreshAsyncLoadState [Game tables] Time: 0.804008 [s] (async)
+[2025.04.02-12.22.35:181][770]ConanSandbox: RefreshAsyncLoadState [Done] Time: 0.804014 [s] (async)
+[2025.04.02-12.22.35:181][770]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3415): UConanGameInstance::SetClientState: ToggleIngameLoadingScreen(false), m_ClientState=0
+[2025.04.02-12.22.35:181][770]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(85): AConanHUD::RemoveIngameLoadingScreen_Implementation: RemoveIngameLoadingScreen
+[2025.04.02-12.22.35:181][770]ConanSandbox: RemoveIngameLoadingScreen
+[2025.04.02-12.22.35:181][770]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(77): AConanHUD::RemoveIngameLoadingScreenNative: ActivateModule("IngameLoadingScreen", false)
+[2025.04.02-12.22.35:181][770]BattlEyeLogging: BattlEyeClient: ClientLoadingScreenStopped
+[2025.04.02-12.22.35:181][770]Main:Display: Exiting game session (playing as Server)...
+[2025.04.02-12.22.35:182][770]LogSessionLengthTracker:Display: Tracking of session length stopped. Session completed normally.
+[2025.04.02-12.22.35:191][771]LogMemory:Display: Entered application state 'LeavingMap'.
+[2025.04.02-12.22.35:191][771]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2025.04.02-12.22.35:191][771]LogGameState: Match State Changed from InProgress to LeavingMap
+[2025.04.02-12.22.35:191][771]LogNet: Browse: /Game/Maps/Startup
+[2025.04.02-12.22.35:191][771]LogNet: World NetDriver shutdown PeerConnectionNetDriver_0 [GameNetDriver]
+[2025.04.02-12.22.35:191][771]LogNet: DestroyNamedNetDriver PeerConnectionNetDriver_0 [GameNetDriver]
+[2025.04.02-12.22.35:191][771]LogPeerConnectionSocketSubsystem:Display: Closing PeerConnectionSocket: SE_ESHUTDOWN
+[2025.04.02-12.22.35:191][771]LogPeerConnectionSocketSubsystem:Display: Closing PeerConnectionSocket Text Chat: SE_ESHUTDOWN
+[2025.04.02-12.22.35:191][771]LogPeerConnectionSocketSubsystem:Display: Closing PeerConnectionSocket: SE_ESHUTDOWN
+[2025.04.02-12.22.35:191][771]LogPeerConnectionSocketSubsystem:Display: Closing PeerConnectionSocket Text Chat: SE_ESHUTDOWN
+[2025.04.02-12.22.35:191][771]LogExit: GameNetDriver PeerConnectionNetDriver_0 shut down
+[2025.04.02-12.22.35:191][771]ConanSandbox: PreLoadMap_Callback begin
+[2025.04.02-12.22.35:191][771]GUI:Display: Unloading cached in-game GUI modules...
+[2025.04.02-12.22.35:191][771]UnitTest:Display: ClientState: 2
+[2025.04.02-12.22.35:191][771]ConanSandbox: RefreshAsyncLoadState [Static asset finder] Time: 0.813895 [s] (async)
+[2025.04.02-12.22.35:191][771]ConanSandbox: RefreshAsyncLoadState [Map data] Time: 0.813904 [s] (async)
+[2025.04.02-12.22.35:191][771]ConanSandbox: RefreshAsyncLoadState [Game tables] Time: 0.813911 [s] (async)
+[2025.04.02-12.22.35:191][771]ConanSandbox: RefreshAsyncLoadState [Audio] Time: 0.813918 [s] (async)
+[2025.04.02-12.22.35:191][771]ConanSandbox: RefreshAsyncLoadState [Mod controllers] Time: 0.813926 [s] (async)
+[2025.04.02-12.22.35:191][771]ConanSandbox: RefreshAsyncLoadState [Done] Time: 0.813932 [s] (async)
+[2025.04.02-12.22.35:191][771]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3415): UConanGameInstance::SetClientState: ToggleIngameLoadingScreen(true), m_ClientState=2
+[2025.04.02-12.22.35:191][771]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3131): UConanGameInstance::ToggleIngameLoadingScreen: ShowIngameLoadingScreen("")
+[2025.04.02-12.22.35:191][771]ConanSandbox: ShowIngameLoadingScreen: 
+[2025.04.02-12.22.35:191][771]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(55): AConanHUD::ShowIngameLoadingScreenNative: ActivateModule("IngameLoadingScreen", true)
+[2025.04.02-12.22.35:211][771]BattlEyeLogging: BattlEyeClient: ClientLoadingScreenStarted
+[2025.04.02-12.22.35:211][771]ConanSandbox: PreLoadMap_Callback end. Time taken: 0.834174 [s]
+[2025.04.02-12.22.35:211][771]LogLoad: LoadMap: /Game/Maps/Startup
+[2025.04.02-12.22.35:353][771]LogDreamworld:Display: Trying to flush the main thread job queue but it's getting bigger.
+[2025.04.02-12.22.35:499][771]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(482): UConanGameInstance::OnPreWorldInitialization: ToggleIngameLoadingScreen(false), m_ClientState=2
+[2025.04.02-12.22.35:521][771]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(490): UConanGameInstance::OnPreWorldInitialization: ToggleIngameLoadingScreen(true), m_ClientState=2
+[2025.04.02-12.22.35:521][771]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3136): UConanGameInstance::ToggleIngameLoadingScreen: ActivateModule("IngameLoadingScreen", true)
+[2025.04.02-12.22.35:531][771]LogAIModule: Creating AISystem for world Startup
+[2025.04.02-12.22.35:531][771]LogLoad: Game class is 'StartupGameMode_C'
+[2025.04.02-12.22.35:540][771]LogWorld: Bringing World /Game/Maps/Startup.Startup up for play (max tick rate 144) at 2025.04.02-14.22.35
+[2025.04.02-12.22.35:540][771]LogWorld: Bringing up level for play took: 0.000622
+[2025.04.02-12.22.35:544][771]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.04.02-12.22.35:544][771]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.04.02-12.22.35:544][771]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2025.04.02-12.22.35:544][771]LogEngine: BlockTillLevelStreamingCompleted: 4
+[2025.04.02-12.22.35:544][771]GUI:Warning: Code: UConsoleUserSettingsSave::MarkConsoleSettingsAsDirty() called to flush settings on PC; flushing all .ini files in response.
+[2025.04.02-12.22.35:544][771]LogConsoleManager:Warning: Setting the console variable 't.MaxFPS' to '0' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '144'
+[2025.04.02-12.22.35:545][771]LogConsoleManager:Warning: Setting the console variable 'r.VolumetricFog' to '1' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2025.04.02-12.22.35:545][771]LogConsoleManager:Warning: Setting the console variable 'r.MotionBlurQuality' to '3' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2025.04.02-12.22.35:576][771]UnitTest:Display: ClientState: 1
+[2025.04.02-12.22.35:576][771]ConanSandbox: RefreshAsyncLoadState [Static asset finder] Time: 0.000000 [s] (async)
+[2025.04.02-12.22.35:576][771]ConanSandbox: RefreshAsyncLoadState [Map data] Time: 0.000000 [s] (async)
+[2025.04.02-12.22.35:576][771]ConanSandbox: RefreshAsyncLoadState [Game tables] Time: 0.000000 [s] (async)
+[2025.04.02-12.22.35:576][771]ConanSandbox: RefreshAsyncLoadState [Audio] Time: 0.000000 [s] (async)
+[2025.04.02-12.22.35:576][771]ConanSandbox: RefreshAsyncLoadState [Mod controllers] Time: 0.000000 [s] (async)
+[2025.04.02-12.22.35:576][771]ConanSandbox: RefreshAsyncLoadState [Done] Time: 0.000000 [s] (async)
+[2025.04.02-12.22.35:576][771]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3415): UConanGameInstance::SetClientState: ToggleIngameLoadingScreen(false), m_ClientState=1
+[2025.04.02-12.22.35:576][771]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(85): AConanHUD::RemoveIngameLoadingScreen_Implementation: RemoveIngameLoadingScreen
+[2025.04.02-12.22.35:576][771]ConanSandbox: RemoveIngameLoadingScreen
+[2025.04.02-12.22.35:576][771]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(77): AConanHUD::RemoveIngameLoadingScreenNative: ActivateModule("IngameLoadingScreen", false)
+[2025.04.02-12.22.35:576][771]ConanSandbox: Force closing message box type Disconnecting. 
+[2025.04.02-12.22.35:577][771]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.04.02-12.22.35:577][771]LogLoad: Took 0.365342 seconds to LoadMap(/Game/Maps/Startup)
+[2025.04.02-12.22.35:577][771]LogLoad: TickWorldTravel finished. Time taken: 1.199748 [s]
+[2025.04.02-12.22.35:585][772]LogStreamableManager:Error: RequestAsyncLoad called with empty or only null assets!
+[2025.04.02-12.22.35:585][772]LogStreamableManager:Error: RequestAsyncLoad called with empty or only null assets!
+[2025.04.02-12.22.35:589][772]Network:Display: Presence: "PS_Default" => "PS_MainMenu".
+[2025.04.02-12.22.35:608][772]LogMediaAssets:Warning: UMediaPlayer::OpenSource called with null MediaSource
+[2025.04.02-12.22.35:624][775]LogWmfMedia:Warning: Possible loss of audio quality in stream 0 due to sample rate != 44100 Hz
+[2025.04.02-12.22.35:750][793]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.130 seconds.
+[2025.04.02-12.22.54:674][514]LogExternalUIFls:Warning: Dreamworld::FOnlineExternalUIFls::ShowWebURL is not implemented.
+[2025.04.02-12.22.54:818][535]LogNotifications:Error: AMQP failed opening SSL/TLS connection
+[2025.04.02-12.22.54:818][535]LogNotifications:Error: AMQP failed opening SSL/TLS connection
+[2025.04.02-12.22.54:818][535]LogNotifications:Error: AMQP Producer failed to connect
+[2025.04.02-12.22.54:818][535]LogNotifications:Error: AMQP Consumer failed to connect over TLS connection.
+[2025.04.02-12.22.54:818][535]LogNotifications:Error: AMQP library error in Consumer closing connection: socket is closed
+[2025.04.02-12.23.28:963][451]LogExternalUIFls:Warning: Dreamworld::FOnlineExternalUIFls::ShowWebURL is not implemented.
+[2025.04.02-12.25.27:845][553]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.158 seconds.
+[2025.04.02-12.26.08:630][425]LogFriendsManager: Players Presence Status Updated
+[2025.04.02-12.29.01:845][368]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.178 seconds.
+[2025.04.02-12.30.08:637][985]LogFriendsManager: Players Presence Status Updated
+[2025.04.02-12.32.49:730][159]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeLevel
+[2025.04.02-12.32.49:730][159]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeDelay
+[2025.04.02-12.32.49:730][159]GUI:Warning: Code: SettingsServerBase is missing widget for: RestrictPurgeTime
+[2025.04.02-12.32.49:730][159]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeRestrictionWeekdayStart
+[2025.04.02-12.32.49:730][159]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeRestrictionWeekdayEnd
+[2025.04.02-12.32.49:730][159]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeRestrictionWeekendStart
+[2025.04.02-12.32.49:730][159]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeRestrictionWeekendEnd
+[2025.04.02-12.32.49:730][159]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgePreparationTime
+[2025.04.02-12.32.49:730][159]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeDuration
+[2025.04.02-12.32.49:730][159]GUI:Warning: Code: SettingsServerBase is missing widget for: MinPurgeOnlinePlayers
+[2025.04.02-12.32.49:730][159]GUI:Warning: Code: SettingsServerBase is missing widget for: AllowBuilding
+[2025.04.02-12.32.49:730][159]GUI:Warning: Code: SettingsServerBase is missing widget for: ClanPurgeTrigger
+[2025.04.02-12.32.49:730][159]GUI:Warning: Code: SettingsServerBase is missing widget for: ClanScoreUpateFrequency
+[2025.04.02-12.32.49:730][159]GUI:Warning: Code: SettingsServerBase is missing widget for: InitialPurgeDelay
+[2025.04.02-12.32.49:730][159]GUI:Warning: Code: SettingsServerBase is missing widget for: EnablePurge
+[2025.04.02-12.32.50:404][243]LogFuncomLiveServices:Error: GetEmailRequestData Failed: PlayerEmail field does not exist
+[2025.04.02-12.32.57:971][332]LogConsoleManager:Warning: Setting the console variable 't.MaxFPS' to '0' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '144'
+[2025.04.02-12.32.57:971][332]LogConsoleManager:Warning: Setting the console variable 'r.VolumetricFog' to '1' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2025.04.02-12.32.57:971][332]LogConsoleManager:Warning: Setting the console variable 'r.MotionBlurQuality' to '3' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2025.04.02-12.32.57:972][332]LogConsoleResponse:Display: 
+[2025.04.02-12.33.00:135][642]ConanSandbox: MessageBoxWidget: Activate CO-OP Do you want to activate CO-OP for this session?
+[2025.04.02-12.33.01:433][829]ConanSandbox: MessageBoxWidget:  Checking Permissions
+[2025.04.02-12.33.01:919][879]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeLevel
+[2025.04.02-12.33.01:919][879]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeDelay
+[2025.04.02-12.33.01:919][879]GUI:Warning: Code: SettingsServerBase is missing widget for: RestrictPurgeTime
+[2025.04.02-12.33.01:919][879]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeRestrictionWeekdayStart
+[2025.04.02-12.33.01:919][879]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeRestrictionWeekdayEnd
+[2025.04.02-12.33.01:919][879]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeRestrictionWeekendStart
+[2025.04.02-12.33.01:919][879]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeRestrictionWeekendEnd
+[2025.04.02-12.33.01:919][879]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgePreparationTime
+[2025.04.02-12.33.01:919][879]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeDuration
+[2025.04.02-12.33.01:919][879]GUI:Warning: Code: SettingsServerBase is missing widget for: MinPurgeOnlinePlayers
+[2025.04.02-12.33.01:919][879]GUI:Warning: Code: SettingsServerBase is missing widget for: AllowBuilding
+[2025.04.02-12.33.01:919][879]GUI:Warning: Code: SettingsServerBase is missing widget for: ClanPurgeTrigger
+[2025.04.02-12.33.01:919][879]GUI:Warning: Code: SettingsServerBase is missing widget for: ClanScoreUpateFrequency
+[2025.04.02-12.33.01:919][879]GUI:Warning: Code: SettingsServerBase is missing widget for: InitialPurgeDelay
+[2025.04.02-12.33.01:919][879]GUI:Warning: Code: SettingsServerBase is missing widget for: EnablePurge
+[2025.04.02-12.33.01:921][879]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\ServerList\HostLocalBase.cpp(356): UHostLocalBase::OnGameStarted: ToggleIngameLoadingScreen(true), m_ClientState=1
+[2025.04.02-12.33.01:921][879]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3131): UConanGameInstance::ToggleIngameLoadingScreen: ShowIngameLoadingScreen("")
+[2025.04.02-12.33.01:921][879]ConanSandbox: ShowIngameLoadingScreen: 
+[2025.04.02-12.33.01:921][879]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(55): AConanHUD::ShowIngameLoadingScreenNative: ActivateModule("IngameLoadingScreen", true)
+[2025.04.02-12.33.01:926][879]UnitTest:Display: ClientState: 2
+[2025.04.02-12.33.01:926][879]ConanSandbox: RefreshAsyncLoadState [Static asset finder] Time: 0.000000 [s] (async)
+[2025.04.02-12.33.01:926][879]ConanSandbox: RefreshAsyncLoadState [Map data] Time: 0.000000 [s] (async)
+[2025.04.02-12.33.01:926][879]ConanSandbox: RefreshAsyncLoadState [Game tables] Time: 0.000000 [s] (async)
+[2025.04.02-12.33.01:926][879]ConanSandbox: RefreshAsyncLoadState [Audio] Time: 0.000000 [s] (async)
+[2025.04.02-12.33.01:926][879]ConanSandbox: RefreshAsyncLoadState [Mod controllers] Time: 0.000000 [s] (async)
+[2025.04.02-12.33.01:926][879]ConanSandbox: RefreshAsyncLoadState [Done] Time: 0.000000 [s] (async)
+[2025.04.02-12.33.01:926][879]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3415): UConanGameInstance::SetClientState: ToggleIngameLoadingScreen(true), m_ClientState=2
+[2025.04.02-12.33.01:926][879]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3131): UConanGameInstance::ToggleIngameLoadingScreen: ShowIngameLoadingScreen("")
+[2025.04.02-12.33.01:926][879]ConanSandbox: ShowIngameLoadingScreen: 
+[2025.04.02-12.33.01:926][879]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(55): AConanHUD::ShowIngameLoadingScreenNative: ActivateModule("IngameLoadingScreen", true)
+[2025.04.02-12.33.01:926][879]BattlEyeLogging: BattlEyeClient: ClientLoadingScreenStarted
+[2025.04.02-12.33.02:382][939]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2025.04.02-12.33.02:382][939]LogGameState: Match State Changed from InProgress to LeavingMap
+[2025.04.02-12.33.02:382][939]LogNet: Browse: /Game/Maps/ConanSandbox/ConanSandbox?listen?bUseLobby
+[2025.04.02-12.33.02:382][939]ConanSandbox: PreLoadMap_Callback begin
+[2025.04.02-12.33.02:382][939]UnitTest:Display: ClientState: 2
+[2025.04.02-12.33.02:382][939]ConanSandbox: RefreshAsyncLoadState [Static asset finder] Time: 0.004382 [s] 
+[2025.04.02-12.33.02:382][939]ConanSandbox: RefreshAsyncLoadState [Map data] Time: 0.004393 [s] 
+[2025.04.02-12.33.02:382][939]ConanSandbox: RefreshAsyncLoadState [Game tables] Time: 0.004401 [s] 
+[2025.04.02-12.33.02:382][939]ConanSandbox: RefreshAsyncLoadState [Granite precaching] Time: 0.004408 [s] 
+[2025.04.02-12.33.02:382][939]ConanSandbox: RefreshAsyncLoadState [Audio] Time: 0.004414 [s] 
+[2025.04.02-12.33.02:382][939]ConanSandbox: RefreshAsyncLoadState [Mod controllers] Time: 0.004422 [s] 
+[2025.04.02-12.33.02:382][939]ConanSandbox: RefreshAsyncLoadState [Done] Time: 0.004428 [s] 
+[2025.04.02-12.33.02:395][939]ConanSandbox: PreLoadMap_Callback end. Time taken: 0.019084 [s]
+[2025.04.02-12.33.02:395][939]LogLoad: LoadMap: /Game/Maps/ConanSandbox/ConanSandbox?listen?bUseLobby
+[2025.04.02-12.33.04:001][939]LogNavMesh: dtNavMesh allocations: dtMeshTile (176) x m_maxTiles (50000) = 8800000 bytes, lut: dtMeshTile* (8) x m_tileLutSize (16384) = 131072 bytes
+[2025.04.02-12.33.04:082][939]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(482): UConanGameInstance::OnPreWorldInitialization: ToggleIngameLoadingScreen(false), m_ClientState=2
+[2025.04.02-12.33.04:110][939]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(490): UConanGameInstance::OnPreWorldInitialization: ToggleIngameLoadingScreen(true), m_ClientState=2
+[2025.04.02-12.33.04:110][939]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3136): UConanGameInstance::ToggleIngameLoadingScreen: ActivateModule("IngameLoadingScreen", true)
+[2025.04.02-12.33.04:114][939]LogAIModule: Creating AISystem for world ConanSandbox
+[2025.04.02-12.33.04:114][939]LogLoad: Game class is 'BaseGameMode_C'
+[2025.04.02-12.33.04:115][939]LogFuncomLiveServices:Display: Setting up listen server, trying to use co-op driver.
+[2025.04.02-12.33.04:115][939]PacketHandlerLog: DDoS detection status: detection enabled: 1 analytics enabled: 1
+[2025.04.02-12.33.04:115][939]LogPeerConnectionSocketSubsystem:Error: Dreamworld::FPeerConnectionSocketSubsystem::GetHostName is not supported.
+[2025.04.02-12.33.04:115][939]WebRTC/PeerConnection: gethostname failed (SE_EWOULDBLOCK)
+[2025.04.02-12.33.04:115][939]LogPeerConnectionSocketSubsystem:Error: Dreamworld::FPeerConnectionSocketSubsystem::GetHostByName is not supported.
+[2025.04.02-12.33.04:115][939]GetHostByName failed (SE_EADDRNOTAVAIL)
+[2025.04.02-12.33.04:115][939]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.04.02-12.33.04:115][939]LogNet: GameNetDriver PeerConnectionNetDriver_1 IpNetDriver listening on port 0
+[2025.04.02-12.33.04:115][939]LogPeerConnectionSocketSubsystem:Warning: PeerConnectionSocketSubsystem::Private::GetLocalAddrFromOssSession: Unable to determine local endpoint name: No GameSession session found.
+[2025.04.02-12.33.04:115][939]LogPeerConnectionSocketSubsystem:Warning: PeerConnectionSocketSubsystem::Private::GetLocalAddrFromFirstLocalPlayer: Unable to determine local endpoint name: No local player found.
+[2025.04.02-12.33.04:115][939]LogPeerConnectionSocketSubsystem:Display: PeerConnectionSocketSubsystem::Private::GetLocalAddrFromOssIdentity: Local endpoint name from user 0: Steam%0A76561198386140428@fls.funcom.com+7777.
+[2025.04.02-12.33.04:122][939]LogLevelActorContainer: Created LevelActorCluster (277) for /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox:PersistentLevel with 277 objects, 0 referenced clusters and 13 mutable objects.
+[2025.04.02-12.33.04:122][939]LogWorld: Bringing World /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox up for play (max tick rate 144) at 2025.04.02-14.33.04
+[2025.04.02-12.33.04:122][939]LogMemory:Display: Entered application state 'InitGame'.
+[2025.04.02-12.33.04:223][939]ConanSandbox: Init map with unique name 'The Exiled Lands' and unique ID (CRC32 hash) 1988349854
+[2025.04.02-12.33.04:304][939]LogDreamworld:Display: CreateBackup: database c:\dysk d\steam\steamapps\common\conan exiles\conansandbox\saved\game.db backup complete.
+[2025.04.02-12.33.04:317][939]Persistence: ConanDBHelper::Maintenance_BuildingInstance(): Removed by cell: 0 Grid size: 10000 [uu]
+[2025.04.02-12.33.04:317][939]Persistence: ConanDBHelper::Maintenance_BuildingInstance(): Removed by class: 0
+[2025.04.02-12.33.04:317][939]Persistence: ConanDBHelper::Maintenance(): Building instances - Success
+[2025.04.02-12.33.04:320][939]Persistence: ConanDBHelper::Maintenance(): Placeables - Success
+[2025.04.02-12.33.04:324][939]Persistence: ConanDBHelper::Maintenance_DuplicatedFeats(): No duplicates
+[2025.04.02-12.33.04:324][939]Persistence: ConanDBHelper::Maintenance(): Duplicated feats - Success
+[2025.04.02-12.33.04:326][939]Persistence: ConanDBHelper::Maintenance_OrphanedRows(): Table item_inventory is ok
+[2025.04.02-12.33.04:329][939]Persistence: ConanDBHelper::Maintenance_OrphanedRows(): Table item_properties is ok
+[2025.04.02-12.33.04:331][939]Persistence: ConanDBHelper::Maintenance_OrphanedRows(): Table properties is ok
+[2025.04.02-12.33.04:333][939]Persistence: ConanDBHelper::Maintenance_OrphanedRows(): Table buildings is ok
+[2025.04.02-12.33.04:336][939]Persistence: ConanDBHelper::Maintenance_OrphanedRows(): Table building_instances is ok
+[2025.04.02-12.33.04:336][939]Persistence: ConanDBHelper::Maintenance(): Orphaned rows - Success
+[2025.04.02-12.33.04:374][939]Persistence: ConanDBHelper::Maintenance(): Database file - Success
+[2025.04.02-12.33.04:374][939]ConanSandbox:Display: ConanDBHelper Maintenance completed in 0.1 seconds.
+[2025.04.02-12.33.04:400][939]Main:Display: Creating ServiceActors for "/Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox:PersistentLevel.BaseGameState_C_0"...
+[2025.04.02-12.33.04:403][939]Main:Display: Registered service actor "BP_ComboRulesLookup_C" with interface "/Game/Systems/Combat/ComboSystem/BP_ComboRulesLookupInterface.BP_ComboRulesLookupInterface_C".
+[2025.04.02-12.33.04:403][939]Main:Display: Registered service actor "BP_CompanionIncidentalAudioServiceActor_C" with interface "/Game/Systems/Audio/BPI_IncidentalAudioServiceInterface.BPI_IncidentalAudioServiceInterface_C".
+[2025.04.02-12.33.04:495][939]Main:Display: Registered service actor "BP_ItemTagService_C" with interface "/Game/Systems/Inventory/Tags/BP_ItemTagServiceInterface.BP_ItemTagServiceInterface_C".
+[2025.04.02-12.33.04:500][939]Main:Display: Registered service actor "BP_EventManager_C" with interface "/Game/DLC/Special/Events/EventSystems/BPI_EventSystem.BPI_EventSystem_C".
+[2025.04.02-12.33.04:500][939]Main:Display: Registered service actor "BP_EventManager_C" with interface "/Game/Gameplay/BPI_EventSystem_External.BPI_EventSystem_External_C".
+[2025.04.02-12.33.04:500][939]Main:Display: Registered service actor "BP_RevealCorruption_Manager_C" with interface "/Game/Sorcery/Spells/Reveal_Corruption/I_RevealedCorruption.I_RevealedCorruption_C".
+[2025.04.02-12.33.04:502][939]Main:Display: Registered service actor "BP_QuestNPCSpawningManager_C" with interface "/Game/Systems/Quest/BPI_QuestNPCSpawning.BPI_QuestNPCSpawning_C".
+[2025.04.02-12.33.04:505][939]Main:Display: Registered service actor "BP_ThrallCageManager_ExiledLands_C" with interface "/Game/Systems/Cheats/I_ThrallCageManager.I_ThrallCageManager_C".
+[2025.04.02-12.33.04:506][939]Main:Display: Registered service actor "BP_KurakTeleporter_Manager_C" with interface "/Game/Sorcery/Content/Teleporter/I_KurakTeleporter.I_KurakTeleporter_C".
+[2025.04.02-12.33.04:510][939]LogWorld: Bringing up level for play took: 0.394207
+[2025.04.02-12.33.04:512][939]LogLongPackageNames:Warning: URL: :0//Game/Maps/ConanSandbox/ConanSandbox: Name may not contain the following characters: :
+[2025.04.02-12.33.04:513][939]LogOnline:Warning: STEAM: No game present to join for session (Game)
+[2025.04.02-12.33.04:513][939]Login:Display: [BaseGameMode_C_0] FindPlayerStart returns Translation: X=127988.344 Y=274817.000 Z=-19563.809 Rotation: P=0.000000 Y=-95.786804 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2025.04.02-12.33.04:528][939]Login:Display: [FunCombat_PlayerController_C_0 None] User [4653d437a89ef272829660452805199f] logged in.
+[2025.04.02-12.33.04:528][939]Login:Display: [BaseGameMode_C_0] BaseGameMode.StartLogin PlayerID: {}
+[2025.04.02-12.33.04:528][939]LogMemory:Display: Entered application state 'StartPlay'.
+[2025.04.02-12.33.04:528][939]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.04.02-12.33.04:528][939]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.04.02-12.33.04:528][939]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2025.04.02-12.33.04:537][939]Persistence: Loading/Spawning active mod controllers, #16 expected
+[2025.04.02-12.33.04:541][939]Persistence: Loading mod controller: DLC_Nemedia_Modcontroller_C
+[2025.04.02-12.33.04:544][939]Persistence: Loading mod controller: DLC_Yamatai_ModController_C
+[2025.04.02-12.33.04:547][939]Persistence: Loading mod controller: DLC_Turan_Modcontroller_C
+[2025.04.02-12.33.04:550][939]Persistence: Loading mod controller: DLC_Siptah_Modcontroller_C
+[2025.04.02-12.33.04:553][939]Persistence: Loading mod controller: DLC_RPpack_ModController_C
+[2025.04.02-12.33.04:556][939]Persistence: Loading mod controller: DLC_Riders_ModController_C
+[2025.04.02-12.33.04:559][939]Persistence: Loading mod controller: DLC_RiddleOfSteel_ModController_C
+[2025.04.02-12.33.04:562][939]Persistence: Loading mod controller: DLC_Pict_Modcontroller_C
+[2025.04.02-12.33.04:564][939]Persistence: Loading mod controller: BP_Special_ModController_C
+[2025.04.02-12.33.04:567][939]Persistence: Loading mod controller: BP_ModController_Khitai_DLC_C
+[2025.04.02-12.33.04:570][939]Persistence: Loading mod controller: DLC_EARhino_Modcontroller_C
+[2025.04.02-12.33.04:572][939]Persistence: Loading mod controller: DLC_BAS_Modcontroller_C
+[2025.04.02-12.33.04:575][939]Persistence: Loading mod controller: DLC_Argos_ModController_C
+[2025.04.02-12.33.04:577][939]Persistence: Loading mod controller: DLC_Aquilonia_ModController_C
+[2025.04.02-12.33.04:580][939]Persistence: Loading mod controller: BP_ConanSword_DLC_ModController_C
+[2025.04.02-12.33.04:584][939]Persistence: Loading mod controller: BP_ConanArmor_DLC_ModController_C
+[2025.04.02-12.33.04:587][939]LogMemory:Display: Entered application state 'MatchStarting'.
+[2025.04.02-12.33.05:463][939]LogLevelActorContainer: Created LevelActorCluster (259) for /Game/Maps/ConanSandbox/Art/Art_CurseWall.Art_CurseWall:PersistentLevel with 16 objects, 29 referenced clusters and 16 mutable objects.
+[2025.04.02-12.33.05:474][939]LogLevelActorContainer: Created LevelActorCluster (258) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y2.heightmap_x5_y2:PersistentLevel with 1440 objects, 42 referenced clusters and 296 mutable objects.
+[2025.04.02-12.33.05:477][939]LogLevelActorContainer: Created LevelActorCluster (211) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y1.heightmap_x6_y1:PersistentLevel with 756 objects, 42 referenced clusters and 258 mutable objects.
+[2025.04.02-12.33.05:488][939]LogLevelActorContainer: Created LevelActorCluster (246) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y2.heightmap_x6_y2:PersistentLevel with 2180 objects, 42 referenced clusters and 318 mutable objects.
+[2025.04.02-12.33.05:490][939]LogLevelActorContainer: Created LevelActorCluster (241) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_North.Gameplay_NPCs_Swamp_North:PersistentLevel with 94 objects, 0 referenced clusters and 18 mutable objects.
+[2025.04.02-12.33.05:490][939]LogLevelActorContainer: Created LevelActorCluster (236) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_West.Gameplay_NPCs_Swamp_West:PersistentLevel with 10 objects, 0 referenced clusters and 3 mutable objects.
+[2025.04.02-12.33.05:491][939]LogEngine: BlockTillLevelStreamingCompleted: 5
+[2025.04.02-12.33.05:492][939]GlobalServerChannel:Display: Loading ServerSettings File: ../../../ConanSandbox/Saved/Config/WindowsNoEditor/ServerSettings.ini
+[2025.04.02-12.33.05:493][939]ConanSandbox:Display: AServerBlacklist::LoadSettings(): Whitelist file C:/Dysk D/Steam/steamapps/common/Conan Exiles/ConanSandbox/Saved//whitelist.txt does not exist
+[2025.04.02-12.33.05:493][939]ConanSandbox:Display: AServerBlacklist::LoadSettings(): Blacklist file C:/Dysk D/Steam/steamapps/common/Conan Exiles/ConanSandbox/Saved//blacklist.txt does not exist
+[2025.04.02-12.33.05:493][939]GlobalServerChannel:Display: Loading ServerSettings File: ../../../ConanSandbox/Saved/Config/WindowsNoEditor/ServerSettings.ini
+[2025.04.02-12.33.05:687][939]GUI:Warning: Code: UConsoleUserSettingsSave::MarkConsoleSettingsAsDirty() called to flush settings on PC; flushing all .ini files in response.
+[2025.04.02-12.33.05:688][939]LogConsoleManager:Warning: Setting the console variable 't.MaxFPS' to '0' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '144'
+[2025.04.02-12.33.05:688][939]LogConsoleManager:Warning: Setting the console variable 'r.VolumetricFog' to '1' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2025.04.02-12.33.05:688][939]LogConsoleManager:Warning: Setting the console variable 'r.MotionBlurQuality' to '3' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2025.04.02-12.33.05:693][939]Audio:Display: [ConanSandbox_C_1] Loading environment audio level: Client or listen server.
+[2025.04.02-12.33.05:693][939]LogLevel: ActivateLevel /Game/Maps/ConanSandbox/ConanSandbox_SOUND 1 1 0 0
+[2025.04.02-12.33.05:693][939]Audio:Display: [BP_SoundStage_C_0] Sound Stage on line
+[2025.04.02-12.33.05:694][939]LogPrimitiveComponent:Warning: CreateDynamicMaterialInstance on /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox:PersistentLevel.BP_SandStorm.SandstormMesh: Material index 1 is invalid.
+[2025.04.02-12.33.05:729][939]Persistence:Display: WorldPersistence: Loading 19 actors
+[2025.04.02-12.33.05:905][939]Persistence:Display: WorldPersistence: Finished loading 19 actors in 0.2 seconds.
+[2025.04.02-12.33.05:916][939]LogMemory:Display: Entered application state 'WorldPersistenceDone'.
+[2025.04.02-12.33.05:922][939]Persistence:Display: WorldPersistence: Found 1 alive characters
+[2025.04.02-12.33.05:922][939]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.04.02-12.33.05:922][939]ItemInventory:Error: Data: Map feat blacklist table not found, blacklist will not function.
+[2025.04.02-12.33.05:922][939]ItemInventory:Error: Data: Map feat blacklist table not found, blacklist will not function.
+[2025.04.02-12.33.05:922][939]ItemInventory:Error: Data: Map feat blacklist table not found, blacklist will not function.
+[2025.04.02-12.33.05:922][939]ItemInventory:Error: Data: Map feat blacklist table not found, blacklist will not function.
+[2025.04.02-12.33.05:922][939]ItemInventory:Error: Data: Map feat blacklist table not found, blacklist will not function.
+[2025.04.02-12.33.05:922][939]ItemInventory:Error: Data: Map feat blacklist table not found, blacklist will not function.
+[2025.04.02-12.33.05:923][939]LogLoad: Took 3.526360 seconds to LoadMap(/Game/Maps/ConanSandbox/ConanSandbox)
+[2025.04.02-12.33.05:923][939]LogLoad: TickWorldTravel finished. Time taken: 3.545638 [s]
+[2025.04.02-12.33.05:999][940]ConanSandbox:Display: Character ID 24 has name Waste of Air and guild ID 0.
+[2025.04.02-12.33.06:013][941]Login:Display: [FunCombat_PlayerController_C_0 None] UserCharacterList: Loading Character 0
+[2025.04.02-12.33.06:013][941]ConanSandbox:Warning: AConanCharacter::EnableLoadingInvulnerability enabled for BasePlayerChar_C_0
+[2025.04.02-12.33.06:013][941]Login:Display: [FunCombat_PlayerController_C_0 None] Creating ADHOC Player Start Translation: X=234776.125 Y=156393.516 Z=-20072.059 Rotation: P=0.000000 Y=63.544567 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2025.04.02-12.33.06:013][941]Login:Display: [FunCombat_PlayerController_C_0 None] PreBeginPlay login completed.
+[2025.04.02-12.33.06:028][944]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\Character\ConanPlayerController.cpp(12917): AConanPlayerController::MakeClientWaitForStreamingWhenCloseTo_Implementation: SetTransitionState(2), TransitionState=0
+[2025.04.02-12.33.06:030][944]LogActor:Warning: UAILODComponent::OnChildAttachedToOwner - Attached (BP_PlayerLight_C_0) to ParentActor (BasePlayerChar_C_0) but bNetUseOwnerRelevancy is false, and has no AILODComponent
+[2025.04.02-12.33.06:030][944]Network:Display: Presence: "PS_MainMenu" => "PS_Default".
+[2025.04.02-12.33.06:095][944]ConanSandbox:Warning: AConanPlayerController::Possess - Calling BattlEye::PlayerPossessed(this)
+[2025.04.02-12.33.06:280][944]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\Character\ConanPlayerController.cpp(12917): AConanPlayerController::MakeClientWaitForStreamingWhenCloseTo_Implementation: SetTransitionState(2), TransitionState=2
+[2025.04.02-12.33.06:282][944]Streaming:Display: Waiting for streaming completed (game, unload)
+[2025.04.02-12.33.06:282][944]LogEngine: BlockTillLevelStreamingCompleted: 6
+[2025.04.02-12.33.06:286][944]Effects:Display: [BP_CloudParticleSpawner BasePlayerChar_C_0] Actual max particle count: 49
+[2025.04.02-12.33.06:293][945]Streaming:Display: Waiting for streaming completed (game, load)
+[2025.04.02-12.33.06:299][945]LogLevelActorContainer: Created LevelActorCluster (230) for /Game/Maps/ConanSandbox/ConanSandbox_SOUND.ConanSandbox_SOUND:PersistentLevel with 12 objects, 0 referenced clusters and 3 mutable objects.
+[2025.04.02-12.33.06:353][945]LogEngine: BlockTillLevelStreamingCompleted: 7
+[2025.04.02-12.33.06:353][945]Audio:Display: [ConanSandbox_C_1] Environment audio level loaded.
+[2025.04.02-12.33.06:354][945]ConanSandbox: UConanGameInstance::OnLoginStatusChanged: LoggedIn
+[2025.04.02-12.33.06:354][945]LogDataMiningUserTracker:Display: LoginStatusChanged: 0 => 2, LocalUserNum: 0, NewId: Waste of Air [0x11000011962550C]
+[2025.04.02-12.33.06:361][946]Streaming:Display: Waiting for streaming completed (game): Done.
+[2025.04.02-12.33.06:361][946]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\Character\ConanPlayerController.cpp(7952): AConanPlayerController::Tick: SetTransitionState(3), TransitionState=2
+[2025.04.02-12.33.06:361][946]ConanGameInstanceLog:Warning: Levels loaded: 645/645
+[2025.04.02-12.33.06:391][947]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\Character\ConanPlayerController.cpp(3759): AConanPlayerController::ClientCompleteSpawn_Implementation: SetTransitionState(0), TransitionState=3
+[2025.04.02-12.33.06:391][947]UnitTest:Display: ClientState: 3
+[2025.04.02-12.33.06:391][947]ConanSandbox: RefreshAsyncLoadState [Static asset finder] Time: 0.013720 [s] (async)
+[2025.04.02-12.33.06:391][947]ConanSandbox: RefreshAsyncLoadState [Map data] Time: 0.013733 [s] (async)
+[2025.04.02-12.33.06:391][947]ConanSandbox: RefreshAsyncLoadState [Game tables] Time: 0.013742 [s] (async)
+[2025.04.02-12.33.06:391][947]ConanSandbox: RefreshAsyncLoadState [Audio] Time: 0.013749 [s] (async)
+[2025.04.02-12.33.06:391][947]ConanSandbox: RefreshAsyncLoadState [Mod controllers] Time: 0.013759 [s] (async)
+[2025.04.02-12.33.06:391][947]ConanSandbox: RefreshAsyncLoadState [Done] Time: 0.013767 [s] (async)
+[2025.04.02-12.33.06:445][947]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3415): UConanGameInstance::SetClientState: ToggleIngameLoadingScreen(false), m_ClientState=3
+[2025.04.02-12.33.06:445][947]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(85): AConanHUD::RemoveIngameLoadingScreen_Implementation: RemoveIngameLoadingScreen
+[2025.04.02-12.33.06:445][947]ConanSandbox: RemoveIngameLoadingScreen
+[2025.04.02-12.33.06:445][947]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(77): AConanHUD::RemoveIngameLoadingScreenNative: ActivateModule("IngameLoadingScreen", false)
+[2025.04.02-12.33.06:445][947]BattlEyeLogging: BattlEyeClient: ClientLoadingScreenStopped
+[2025.04.02-12.33.06:446][947]Main:Display: Entering game session (playing as Server)...
+[2025.04.02-12.33.06:446][947]LogSessionLengthTracker:Display: Tracking of session length started.
+[2025.04.02-12.33.06:447][947]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\Character\ConanPlayerController.cpp(3767): AConanPlayerController::ClientCompleteSpawn_Implementation: ToggleIngameLoadingScreen(false), m_ClientState=3
+[2025.04.02-12.33.06:447][947]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(85): AConanHUD::RemoveIngameLoadingScreen_Implementation: RemoveIngameLoadingScreen
+[2025.04.02-12.33.06:447][947]ConanSandbox: RemoveIngameLoadingScreen
+[2025.04.02-12.33.06:447][947]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(77): AConanHUD::RemoveIngameLoadingScreenNative: ActivateModule("IngameLoadingScreen", false)
+[2025.04.02-12.33.06:447][947]ConanSandbox:Warning: [HandleChatP2P]:Signed in player cannot chat!
+[2025.04.02-12.33.08:653][252]LogOnlineStoreSteam: Steam currency code: PLN.
+[2025.04.02-12.33.09:367][354]ConanSandbox:Warning: AConanCharacter::DisableLoadingInvulnerability disabled for BasePlayerChar_C_0
+[2025.04.02-12.33.11:209][618]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.191 seconds.
+[2025.04.02-12.33.44:215][852]Network:Display: XBLEvents: "HS_EnemiesKilled": +1
+[2025.04.02-12.33.58:387][872]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.33.58:391][872]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.34.02:329][429]LogLevel: ActivateLevel /Game/Maps/ConanSandbox/Paperdoll 1 1 0 0
+[2025.04.02-12.34.08:622][311]LogFriendsManager: Players Presence Status Updated
+[2025.04.02-12.34.17:472][572]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.34.17:472][572]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.34.17:472][572]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.34.17:472][572]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.34.17:472][572]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.34.17:472][572]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.34.17:472][572]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.34.26:306][739]Network:Display: XBLEvents: "HS_CraftedObjects": +1
+[2025.04.02-12.34.48:308][852]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithInterface_OutActors of length 0!
+[2025.04.02-12.34.59:507][460]LogLevelActorContainer: Created LevelActorCluster (401) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_East.Gameplay_NPCs_Swamp_East:PersistentLevel with 8 objects, 0 referenced clusters and 2 mutable objects.
+[2025.04.02-12.35.00:683][621]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithInterface_OutActors of length 0!
+[2025.04.02-12.35.39:651][221]LogLevelActorContainer: Created LevelActorCluster (236) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_West.Gameplay_NPCs_Swamp_West:PersistentLevel with 10 objects, 0 referenced clusters and 3 mutable objects.
+[2025.04.02-12.36.15:777][107]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithInterface_OutActors of length 0!
+[2025.04.02-12.36.22:755][ 47]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.160 seconds.
+[2025.04.02-12.36.35:113][784]LogLevelActorContainer: Created LevelActorCluster (414) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x7_y2.heightmap_x7_y2:PersistentLevel with 1866 objects, 42 referenced clusters and 380 mutable objects.
+[2025.04.02-12.36.41:680][691]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.36.41:680][691]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.36.41:680][691]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.36.41:680][691]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.36.41:680][691]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.36.41:680][691]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.36.41:680][691]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.36.52:606][127]LogLevelActorContainer: Created LevelActorCluster (444) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x7_y1.heightmap_x7_y1:PersistentLevel with 278 objects, 42 referenced clusters and 266 mutable objects.
+[2025.04.02-12.38.08:628][399]LogFriendsManager: Players Presence Status Updated
+[2025.04.02-12.39.25:499][224]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.151 seconds.
+[2025.04.02-12.41.19:236][ 81]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.41.19:236][ 81]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.41.19:236][ 81]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.41.19:236][ 81]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.41.19:236][ 81]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.41.19:236][ 81]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.41.19:236][ 81]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.42.08:655][622]LogFriendsManager: Players Presence Status Updated
+[2025.04.02-12.42.13:777][301]LogLevelActorContainer: Created LevelActorCluster (450) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_Dungeon_WitchQueen.Gameplay_Dungeon_WitchQueen:PersistentLevel with 30 objects, 0 referenced clusters and 2 mutable objects.
+[2025.04.02-12.42.32:039][671]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithInterface_OutActors of length 0!
+[2025.04.02-12.43.05:416][340]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.150 seconds.
+[2025.04.02-12.43.28:117][604]LogLevelActorContainer: Created LevelActorCluster (452) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x6_y2.Camps_NPC_x6_y2:PersistentLevel with 54 objects, 19 referenced clusters and 22 mutable objects.
+[2025.04.02-12.43.29:654][815]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.43.29:654][815]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.43.29:654][815]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.43.29:654][815]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.43.29:654][815]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.43.29:654][815]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.43.29:654][815]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.44.16:168][824]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.44.16:169][824]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.44.16:169][824]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.44.16:169][824]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.44.16:169][824]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.44.16:169][824]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.44.16:169][824]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.44.24:884][869]LogLevelActorContainer: Created LevelActorCluster (211) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x6_y2.Camps_NPC_x6_y2:PersistentLevel with 54 objects, 19 referenced clusters and 22 mutable objects.
+[2025.04.02-12.44.52:713][790]NPC:Warning: Data: [BP_NPC_Wildlife_GreyApe_C_0] Failed to start Spawn Point emote Relaxing1 on 'Grey Ape'. Spawn point location = X=299536.406 Y=158044.172 Z=-15144.223
+[2025.04.02-12.46.08:633][379]LogFriendsManager: Players Presence Status Updated
+[2025.04.02-12.46.13:147][ 28]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithInterface_OutActors of length 0!
+[2025.04.02-12.46.18:219][747]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.46.18:219][747]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.46.18:219][747]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.46.18:219][747]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.46.18:219][747]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.46.18:219][747]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.46.18:219][747]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.46.25:680][804]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.46.25:680][804]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.46.25:680][804]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.46.25:680][804]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.46.25:680][804]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.46.25:680][804]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.46.25:680][804]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.46.40:403][710]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.190 seconds.
+[2025.04.02-12.47.03:862][521]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2025.04.02-12.47.03:863][521]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2025.04.02-12.47.03:865][521]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2025.04.02-12.47.03:865][521]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2025.04.02-12.47.11:527][516]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithInterface_OutActors of length 0!
+[2025.04.02-12.47.42:781][239]LogLevelActorContainer: Created LevelActorCluster (415) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y2.heightmap_x5_y2:PersistentLevel with 1440 objects, 42 referenced clusters and 296 mutable objects.
+[2025.04.02-12.47.50:638][155]LogLevelActorContainer: Created LevelActorCluster (416) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_West.Gameplay_NPCs_Swamp_West:PersistentLevel with 10 objects, 0 referenced clusters and 3 mutable objects.
+[2025.04.02-12.48.09:353][660]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithInterface_OutActors of length 0!
+[2025.04.02-12.48.30:338][438]LogLevelActorContainer: Created LevelActorCluster (412) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_North.Gameplay_NPCs_Swamp_North:PersistentLevel with 94 objects, 0 referenced clusters and 18 mutable objects.
+[2025.04.02-12.49.11:216][111]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.49.11:220][111]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.49.37:051][643]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.49.37:055][643]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.49.55:590][ 80]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.50.08:647][938]LogFriendsManager: Players Presence Status Updated
+[2025.04.02-12.50.10:122][111]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.161 seconds.
+[2025.04.02-12.50.10:607][165]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.50.10:607][165]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.50.10:610][165]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.50.10:610][165]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.50.50:136][712]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.50.50:139][712]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.50.56:732][647]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.50.56:732][647]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.50.56:736][647]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.50.56:736][647]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.51.12:122][856]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.51.12:122][856]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.51.16:796][525]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.51.16:800][525]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.51.26:211][870]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.51.27:289][ 25]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.51.27:289][ 25]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.51.44:687][520]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.51.44:691][520]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.51.46:367][759]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.52.25:651][901]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ValidSocketResults of length 0!
+[2025.04.02-12.52.30:074][514]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.52.30:077][514]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.53.00:880][686]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.162 seconds.
+[2025.04.02-12.53.08:466][701]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.53.08:470][701]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.53.09:312][802]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.132 seconds.
+[2025.04.02-12.53.23:634][745]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.53.23:638][745]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.53.34:819][306]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.53.34:819][306]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.53.34:822][306]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.53.34:822][306]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-12.53.59:183][593]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.53.59:183][593]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.53.59:183][593]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.53.59:183][593]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.53.59:183][593]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.53.59:183][593]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.53.59:183][593]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.53.59:919][676]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.53.59:919][676]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.53.59:919][676]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.53.59:919][676]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.53.59:919][676]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.53.59:920][676]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.53.59:920][676]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.54.06:525][474]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.54.06:525][474]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.54.06:525][474]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.54.06:525][474]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.54.06:525][474]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.54.06:525][474]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.54.06:525][474]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.54.08:670][720]LogFriendsManager: Players Presence Status Updated
+[2025.04.02-12.55.28:703][599]LogSlate:Warning: Unable to scroll to descendant as it's not a child of the scrollbox
+[2025.04.02-12.56.36:606][955]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.139 seconds.
+[2025.04.02-12.58.08:641][ 30]LogFriendsManager: Players Presence Status Updated
+[2025.04.02-12.59.07:531][ 16]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.59.07:531][ 16]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.59.07:531][ 16]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.59.07:531][ 16]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.59.07:531][ 16]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.59.07:531][ 16]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.59.07:531][ 16]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.59.49:768][100]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.59.49:768][100]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.59.49:768][100]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.59.49:768][100]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.59.49:768][100]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.59.49:768][100]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.59.49:768][100]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.59.50:522][185]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.174 seconds.
+[2025.04.02-12.59.56:038][867]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.59.56:038][867]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.59.56:038][867]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.59.56:038][867]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.59.56:038][867]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.59.56:038][867]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-12.59.56:038][867]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.00.09:968][645]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.00.09:968][645]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.00.09:968][645]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.00.09:968][645]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.00.09:968][645]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.00.09:968][645]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.00.09:968][645]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.00.21:919][ 64]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.00.21:924][ 64]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.00.28:531][931]LogLevelActorContainer: Created LevelActorCluster (445) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_East.Gameplay_NPCs_Swamp_East:PersistentLevel with 8 objects, 0 referenced clusters and 2 mutable objects.
+[2025.04.02-13.00.39:324][462]LogLevelActorContainer: Created LevelActorCluster (440) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y3.heightmap_x6_y3:PersistentLevel with 1873 objects, 42 referenced clusters and 289 mutable objects.
+[2025.04.02-13.00.43:182][998]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithInterface_OutActors of length 0!
+[2025.04.02-13.00.55:624][768]LogLevelActorContainer: Created LevelActorCluster (443) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y1.heightmap_x6_y1:PersistentLevel with 756 objects, 42 referenced clusters and 258 mutable objects.
+[2025.04.02-13.00.57:663][ 56]LogLevelActorContainer: Created LevelActorCluster (443) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y1.heightmap_x6_y1:PersistentLevel with 756 objects, 42 referenced clusters and 258 mutable objects.
+[2025.04.02-13.01.13:866][363]LogLevelActorContainer: Created LevelActorCluster (443) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y1.heightmap_x6_y1:PersistentLevel with 756 objects, 42 referenced clusters and 258 mutable objects.
+[2025.04.02-13.01.22:891][651]LogLevelActorContainer: Created LevelActorCluster (440) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y3.heightmap_x6_y3:PersistentLevel with 1873 objects, 42 referenced clusters and 289 mutable objects.
+[2025.04.02-13.01.27:052][233]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithInterface_OutActors of length 0!
+[2025.04.02-13.01.32:940][ 74]LogLevelActorContainer: Created LevelActorCluster (258) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_East.Gameplay_NPCs_Swamp_East:PersistentLevel with 8 objects, 0 referenced clusters and 2 mutable objects.
+[2025.04.02-13.01.51:462][697]LogLevelActorContainer: Created LevelActorCluster (440) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y3.heightmap_x6_y3:PersistentLevel with 1873 objects, 42 referenced clusters and 289 mutable objects.
+[2025.04.02-13.02.08:664][932]LogFriendsManager: Players Presence Status Updated
+[2025.04.02-13.02.19:308][371]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.02.19:308][371]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.02.19:308][371]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.02.19:308][371]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.02.19:309][371]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.02.19:309][371]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.02.19:309][371]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.02.27:760][341]LogLevelActorContainer: Created LevelActorCluster (443) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_West.Gameplay_NPCs_Swamp_West:PersistentLevel with 10 objects, 0 referenced clusters and 3 mutable objects.
+[2025.04.02-13.02.28:282][414]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithInterface_OutActors of length 0!
+[2025.04.02-13.02.31:558][867]LogLevelActorContainer: Created LevelActorCluster (420) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y3.heightmap_x6_y3:PersistentLevel with 1873 objects, 42 referenced clusters and 289 mutable objects.
+[2025.04.02-13.02.33:807][173]LogLevelActorContainer: Created LevelActorCluster (437) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x6_y2.Camps_NPC_x6_y2:PersistentLevel with 54 objects, 19 referenced clusters and 22 mutable objects.
+[2025.04.02-13.02.50:663][498]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.02.50:663][498]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.02.50:663][498]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.02.50:663][498]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.02.50:663][498]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.02.50:663][498]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.02.50:663][498]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.02.55:813][131]LogLevelActorContainer: Created LevelActorCluster (433) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x7_y2.heightmap_x7_y2:PersistentLevel with 1866 objects, 42 referenced clusters and 380 mutable objects.
+[2025.04.02-13.03.01:438][875]LogLevelActorContainer: Created LevelActorCluster (440) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y1.heightmap_x6_y1:PersistentLevel with 756 objects, 42 referenced clusters and 258 mutable objects.
+[2025.04.02-13.03.04:909][277]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.282 seconds.
+[2025.04.02-13.03.09:762][934]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.143 seconds.
+[2025.04.02-13.03.13:031][395]LogLevelActorContainer: Created LevelActorCluster (420) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y3.heightmap_x6_y3:PersistentLevel with 1873 objects, 42 referenced clusters and 289 mutable objects.
+[2025.04.02-13.04.10:040][545]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithInterface_OutActors of length 0!
+[2025.04.02-13.04.45:004][564]LogLevelActorContainer: Created LevelActorCluster (440) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y1.heightmap_x6_y1:PersistentLevel with 756 objects, 42 referenced clusters and 258 mutable objects.
+[2025.04.02-13.04.48:320][ 36]LogLevelActorContainer: Created LevelActorCluster (440) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y1.heightmap_x6_y1:PersistentLevel with 756 objects, 42 referenced clusters and 258 mutable objects.
+[2025.04.02-13.04.58:272][448]LogLevelActorContainer: Created LevelActorCluster (440) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y1.heightmap_x6_y1:PersistentLevel with 756 objects, 42 referenced clusters and 258 mutable objects.
+[2025.04.02-13.05.03:409][155]LogLevelActorContainer: Created LevelActorCluster (440) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y1.heightmap_x6_y1:PersistentLevel with 756 objects, 42 referenced clusters and 258 mutable objects.
+[2025.04.02-13.05.06:111][534]LogLevelActorContainer: Created LevelActorCluster (440) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y1.heightmap_x6_y1:PersistentLevel with 756 objects, 42 referenced clusters and 258 mutable objects.
+[2025.04.02-13.05.08:520][859]LogLevelActorContainer: Created LevelActorCluster (440) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y1.heightmap_x6_y1:PersistentLevel with 756 objects, 42 referenced clusters and 258 mutable objects.
+[2025.04.02-13.05.28:192][648]LogLevelActorContainer: Created LevelActorCluster (440) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y1.heightmap_x6_y1:PersistentLevel with 756 objects, 42 referenced clusters and 258 mutable objects.
+[2025.04.02-13.05.32:196][212]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.05.32:196][212]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.05.32:196][212]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.05.32:196][212]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.05.32:196][212]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.05.32:196][212]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.05.32:196][212]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.05.35:882][652]LogLevelActorContainer: Created LevelActorCluster (440) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y1.heightmap_x6_y1:PersistentLevel with 756 objects, 42 referenced clusters and 258 mutable objects.
+[2025.04.02-13.05.37:862][926]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.05.37:862][926]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.05.37:862][926]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.05.37:862][926]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.05.37:862][926]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.05.37:862][926]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.05.37:862][926]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.05.54:891][303]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.143 seconds.
+[2025.04.02-13.05.58:920][876]LogLevelActorContainer: Created LevelActorCluster (431) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_Dungeon_WitchQueen.Gameplay_Dungeon_WitchQueen:PersistentLevel with 30 objects, 0 referenced clusters and 2 mutable objects.
+[2025.04.02-13.06.00:292][ 67]LogLevelActorContainer: Created LevelActorCluster (429) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y3.heightmap_x6_y3:PersistentLevel with 1873 objects, 42 referenced clusters and 289 mutable objects.
+[2025.04.02-13.06.08:718][249]LogFriendsManager: Players Presence Status Updated
+[2025.04.02-13.06.14:801][109]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithInterface_OutActors of length 0!
+[2025.04.02-13.06.29:401][178]LogLevelActorContainer: Created LevelActorCluster (430) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y1.heightmap_x6_y1:PersistentLevel with 756 objects, 42 referenced clusters and 258 mutable objects.
+[2025.04.02-13.06.30:094][274]NPC:Warning: Data: [BP_NPC_Wildlife_GreyApe_C_2] Failed to start Spawn Point emote Relaxing1 on 'Grey Ape'. Spawn point location = X=297996.125 Y=153937.234 Z=-14485.530
+[2025.04.02-13.06.33:957][822]LogLevelActorContainer: Created LevelActorCluster (426) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x7_y1.heightmap_x7_y1:PersistentLevel with 278 objects, 42 referenced clusters and 266 mutable objects.
+[2025.04.02-13.06.35:867][ 95]NPC:Warning: Data: [BP_NPC_Wildlife_GreyApe_C_4] Failed to start Spawn Point emote Relaxing1 on 'Grey Ape'. Spawn point location = X=299536.406 Y=158044.172 Z=-15144.223
+[2025.04.02-13.06.39:868][668]NPC:Warning: Data: [BP_NPC_Wildlife_GreyApe_C_6] Failed to start Spawn Point emote Relaxing1 on 'Grey Ape'. Spawn point location = X=301805.500 Y=153527.125 Z=-14355.067
+[2025.04.02-13.06.49:867][ 41]NPC:Warning: Data: [BP_NPC_Wildlife_GreyApe_C_8] Failed to start Spawn Point emote Relaxing1 on 'Grey Ape'. Spawn point location = X=305552.563 Y=151349.328 Z=-14225.632
+[2025.04.02-13.06.51:266][227]NPC:Warning: Data: [BP_NPC_Wildlife_GreyApe_C_9] Failed to start Spawn Point emote Relaxing1 on 'Grey Ape'. Spawn point location = X=305657.750 Y=152003.891 Z=-14230.048
+[2025.04.02-13.06.59:547][265]LogLevelActorContainer: Created LevelActorCluster (425) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y3.heightmap_x6_y3:PersistentLevel with 1873 objects, 42 referenced clusters and 289 mutable objects.
+[2025.04.02-13.06.59:864][300]NPC:Warning: Data: [BP_NPC_Wildlife_GreyApe_C_12] Failed to start Spawn Point emote Relaxing1 on 'Grey Ape'. Spawn point location = X=309118.500 Y=150944.125 Z=-19068.674
+[2025.04.02-13.07.07:406][222]LogLevelActorContainer: Created LevelActorCluster (430) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y1.heightmap_x6_y1:PersistentLevel with 756 objects, 42 referenced clusters and 258 mutable objects.
+[2025.04.02-13.07.26:914][606]LogLevelActorContainer: Created LevelActorCluster (430) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y1.heightmap_x6_y1:PersistentLevel with 756 objects, 42 referenced clusters and 258 mutable objects.
+[2025.04.02-13.07.34:271][517]LogLevelActorContainer: Created LevelActorCluster (425) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y3.heightmap_x6_y3:PersistentLevel with 1873 objects, 42 referenced clusters and 289 mutable objects.
+[2025.04.02-13.07.36:204][723]LogLevelActorContainer: Created LevelActorCluster (423) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x7_y3.heightmap_x7_y3:PersistentLevel with 1304 objects, 42 referenced clusters and 318 mutable objects.
+[2025.04.02-13.08.04:119][814]LogNotifications:Display: Incoming notification: KeepAlive
+[2025.04.02-13.08.12:335][795]LogLevelActorContainer: Created LevelActorCluster (424) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x7_y1.heightmap_x7_y1:PersistentLevel with 278 objects, 42 referenced clusters and 266 mutable objects.
+[2025.04.02-13.08.14:619][105]LogLevelActorContainer: Created LevelActorCluster (430) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y1.heightmap_x6_y1:PersistentLevel with 756 objects, 42 referenced clusters and 258 mutable objects.
+[2025.04.02-13.08.26:988][869]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.08.26:988][869]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.08.26:989][869]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.08.26:989][869]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.08.26:989][869]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.08.26:989][869]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.08.26:989][869]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.08.35:060][963]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.206 seconds.
+[2025.04.02-13.08.38:499][454]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithInterface_OutActors of length 0!
+[2025.04.02-13.08.42:353][997]LogLevelActorContainer: Created LevelActorCluster (430) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y3.heightmap_x6_y3:PersistentLevel with 1873 objects, 42 referenced clusters and 289 mutable objects.
+[2025.04.02-13.08.54:348][710]LogLevelActorContainer: Created LevelActorCluster (427) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y1.heightmap_x6_y1:PersistentLevel with 756 objects, 42 referenced clusters and 258 mutable objects.
+[2025.04.02-13.08.58:702][335]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithInterface_OutActors of length 0!
+[2025.04.02-13.09.10:229][989]LogLevelActorContainer: Created LevelActorCluster (404) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_Dungeon_WitchQueen.Gameplay_Dungeon_WitchQueen:PersistentLevel with 30 objects, 0 referenced clusters and 2 mutable objects.
+[2025.04.02-13.09.22:681][771]LogLevelActorContainer: Created LevelActorCluster (410) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y3.heightmap_x6_y3:PersistentLevel with 1873 objects, 42 referenced clusters and 289 mutable objects.
+[2025.04.02-13.10.08:681][393]LogFriendsManager: Players Presence Status Updated
+[2025.04.02-13.10.12:772][982]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsWithInterface_OutActors of length 0!
+[2025.04.02-13.10.16:997][570]LogLevelActorContainer: Created LevelActorCluster (411) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y2.heightmap_x5_y2:PersistentLevel with 1440 objects, 42 referenced clusters and 296 mutable objects.
+[2025.04.02-13.10.22:121][270]LogLevelActorContainer: Created LevelActorCluster (416) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_West.Gameplay_NPCs_Swamp_West:PersistentLevel with 10 objects, 0 referenced clusters and 3 mutable objects.
+[2025.04.02-13.10.30:454][462]LogLevelActorContainer: Created LevelActorCluster (427) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y1.heightmap_x6_y1:PersistentLevel with 756 objects, 42 referenced clusters and 258 mutable objects.
+[2025.04.02-13.10.58:593][340]LogLevelActorContainer: Created LevelActorCluster (441) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_East.Gameplay_NPCs_Swamp_East:PersistentLevel with 8 objects, 0 referenced clusters and 2 mutable objects.
+[2025.04.02-13.11.11:590][ 20]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.11.11:593][ 20]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.11.18:691][814]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.11.18:696][814]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.11.31:030][287]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.11.31:030][287]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.11.31:034][287]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.11.31:034][287]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.11.39:995][391]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.11.39:995][391]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.11.39:995][391]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.11.39:995][391]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.11.39:995][391]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.11.39:995][391]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.11.39:995][391]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.11.47:782][290]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.11.47:786][290]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.12.12:646][610]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.12.12:650][610]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.12.39:625][396]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.12.39:625][396]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.12.39:629][396]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.12.39:629][396]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.12.45:431][224]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.12.45:431][224]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.12.45:432][224]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.12.45:432][224]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.12.57:343][740]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.12.57:343][740]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.12.57:343][740]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.12.57:343][740]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.12.57:343][740]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.12.57:343][740]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.12.57:343][740]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.13.05:331][600]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.13.05:331][600]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.13.05:331][600]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.13.05:331][600]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.13.05:331][600]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.13.05:331][600]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.13.05:331][600]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.13.10:228][142]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.148 seconds.
+[2025.04.02-13.13.11:999][385]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.13.12:002][385]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.13.19:807][356]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.13.19:807][356]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.13.19:807][356]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.13.19:807][356]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.13.19:807][356]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.13.19:807][356]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.13.19:807][356]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.13.32:708][902]LogLevelActorContainer: Created LevelActorCluster (429) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_East.Gameplay_NPCs_Swamp_East:PersistentLevel with 8 objects, 0 referenced clusters and 2 mutable objects.
+[2025.04.02-13.14.08:715][915]LogFriendsManager: Players Presence Status Updated
+[2025.04.02-13.14.35:518][338]LogLevelActorContainer: Created LevelActorCluster (423) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y1.heightmap_x5_y1:PersistentLevel with 632 objects, 42 referenced clusters and 273 mutable objects.
+[2025.04.02-13.14.50:527][134]LogLevelActorContainer: Created LevelActorCluster (429) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y1.heightmap_x5_y1:PersistentLevel with 632 objects, 42 referenced clusters and 273 mutable objects.
+[2025.04.02-13.14.54:362][638]LogLevelActorContainer: Created LevelActorCluster (429) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y1.heightmap_x5_y1:PersistentLevel with 632 objects, 42 referenced clusters and 273 mutable objects.
+[2025.04.02-13.15.25:385][443]LogLevelActorContainer: Created LevelActorCluster (429) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y1.heightmap_x5_y1:PersistentLevel with 632 objects, 42 referenced clusters and 273 mutable objects.
+[2025.04.02-13.15.33:419][288]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.15.33:419][288]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.15.33:419][288]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.15.33:419][288]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.15.33:419][288]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.15.33:419][288]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.15.33:419][288]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.15.40:368][219]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.164 seconds.
+[2025.04.02-13.15.49:449][515]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.15.49:453][515]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.16.51:799][307]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.16.51:799][307]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.16.51:799][307]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.16.51:799][307]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.16.51:799][307]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.16.51:799][307]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.16.51:799][307]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.17.07:276][512]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.17.07:280][512]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.17.16:348][808]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array ValidSocketResults of length 0!
+[2025.04.02-13.17.20:608][417]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.17.20:613][417]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.17.27:993][473]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.17.27:993][473]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.17.27:997][473]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.17.27:997][473]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.17.31:064][908]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.17.31:064][908]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.17.31:068][908]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.17.31:068][908]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.17.39:764][134]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.17.39:769][134]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.17.56:411][417]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.17.56:411][417]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.18.02:950][154]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.18.02:954][154]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.18.08:690][831]LogFriendsManager: Players Presence Status Updated
+[2025.04.02-13.18.10:489][ 89]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.191 seconds.
+[2025.04.02-13.18.23:622][845]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.18.23:622][845]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.18.23:622][845]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.18.23:622][845]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.18.23:622][845]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.18.23:622][845]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.18.23:622][845]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.18.26:624][155]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.18.26:628][155]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.18.36:592][426]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.18.36:595][426]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.19.04:966][400]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.19.04:970][400]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.19.28:538][706]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.19.28:542][706]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.19.32:470][264]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.19.32:470][264]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.19.32:474][264]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.19.32:474][264]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.19.37:437][973]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.19.37:437][973]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.19.37:437][973]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.19.37:437][973]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.19.42:260][663]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.19.42:264][663]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.19.44:158][928]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.19.44:158][928]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.19.44:162][928]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.19.44:162][928]LogUObjectBase:Error: 'this' pointer is invalid.
+[2025.04.02-13.20.02:230][506]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.02:230][506]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.02:230][506]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.02:230][506]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.02:230][506]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.02:230][506]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.02:230][506]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.02:968][594]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.02:969][594]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.02:969][594]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.02:969][594]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.02:969][594]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.02:969][594]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.02:969][594]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.20:287][983]LogLevelActorContainer: Created LevelActorCluster (422) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_East.Gameplay_NPCs_Swamp_East:PersistentLevel with 8 objects, 0 referenced clusters and 2 mutable objects.
+[2025.04.02-13.20.23:706][439]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.23:706][439]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.23:706][439]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.23:706][439]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.23:706][439]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.23:706][439]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.23:706][439]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.33:824][729]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.33:824][729]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.33:824][729]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.33:824][729]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.33:824][729]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.33:824][729]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.33:824][729]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.20.51:016][907]LogLevelActorContainer: Created LevelActorCluster (425) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_East.Gameplay_NPCs_Swamp_East:PersistentLevel with 8 objects, 0 referenced clusters and 2 mutable objects.
+[2025.04.02-13.21.18:682][802]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.21.18:682][802]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.21.18:683][802]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.21.18:683][802]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.21.18:683][802]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.21.18:683][802]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.21.18:683][802]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.21.19:727][897]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.171 seconds.
+[2025.04.02-13.22.05:484][ 90]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.22.05:484][ 90]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.22.05:484][ 90]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.22.05:484][ 90]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.22.05:484][ 90]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.22.05:484][ 90]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.22.05:484][ 90]ConanSandbox:Error: UUICharacterDisplay::ForceTextureLoading - Invalid mesh component.
+[2025.04.02-13.22.08:766][529]LogFriendsManager: Players Presence Status Updated
+[2025.04.02-13.22.29:633][526]ConanSandbox: MessageBoxWidget: Are you sure? Are you sure? All clients will be disconnected.
+[2025.04.02-13.22.30:630][669]ConanSandbox: Requested Message Disconnecting. (Currently Active message NONE)
+[2025.04.02-13.22.30:630][669]ConanSandbox: MessageBoxWidget: Disconnecting Disconnecting from the game
+[2025.04.02-13.22.35:627][386]ConanSandbox: Requested Message Disconnecting. (Currently Active message Disconnecting)
+[2025.04.02-13.22.35:627][386]ConanSandbox:Warning: Message ID 14 not shown:Message already in message stack.
+[2025.04.02-13.22.35:627][386]LogOnline:Warning: STEAM: Can't destroy a null online session (Game)
+[2025.04.02-13.22.36:129][458]UnitTest:Display: ClientState: 0
+[2025.04.02-13.22.36:129][458]ConanSandbox: RefreshAsyncLoadState [Static asset finder] Time: 0.000000 [s] (async)
+[2025.04.02-13.22.36:129][458]ConanSandbox: RefreshAsyncLoadState [Map data] Time: 0.000000 [s] (async)
+[2025.04.02-13.22.36:129][458]ConanSandbox: RefreshAsyncLoadState [Game tables] Time: 0.000000 [s] (async)
+[2025.04.02-13.22.36:129][458]ConanSandbox: RefreshAsyncLoadState [Done] Time: 0.000000 [s] (async)
+[2025.04.02-13.22.36:129][458]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3415): UConanGameInstance::SetClientState: ToggleIngameLoadingScreen(false), m_ClientState=0
+[2025.04.02-13.22.36:129][458]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(85): AConanHUD::RemoveIngameLoadingScreen_Implementation: RemoveIngameLoadingScreen
+[2025.04.02-13.22.36:129][458]ConanSandbox: RemoveIngameLoadingScreen
+[2025.04.02-13.22.36:129][458]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(77): AConanHUD::RemoveIngameLoadingScreenNative: ActivateModule("IngameLoadingScreen", false)
+[2025.04.02-13.22.36:129][458]BattlEyeLogging: BattlEyeClient: ClientLoadingScreenStopped
+[2025.04.02-13.22.36:129][458]Main:Display: Exiting game session (playing as Server)...
+[2025.04.02-13.22.36:130][458]LogSessionLengthTracker:Display: Tracking of session length stopped. Session completed normally.
+[2025.04.02-13.22.36:138][459]LogMemory:Display: Entered application state 'LeavingMap'.
+[2025.04.02-13.22.36:139][459]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2025.04.02-13.22.36:139][459]LogGameState: Match State Changed from InProgress to LeavingMap
+[2025.04.02-13.22.36:139][459]LogNet: Browse: /Game/Maps/Startup
+[2025.04.02-13.22.36:139][459]LogNet: World NetDriver shutdown PeerConnectionNetDriver_1 [GameNetDriver]
+[2025.04.02-13.22.36:139][459]LogNet: DestroyNamedNetDriver PeerConnectionNetDriver_1 [GameNetDriver]
+[2025.04.02-13.22.36:139][459]LogPeerConnectionSocketSubsystem:Display: Closing PeerConnectionSocket: SE_ESHUTDOWN
+[2025.04.02-13.22.36:139][459]LogPeerConnectionSocketSubsystem:Display: Closing PeerConnectionSocket Text Chat: SE_ESHUTDOWN
+[2025.04.02-13.22.36:139][459]LogPeerConnectionSocketSubsystem:Display: Closing PeerConnectionSocket: SE_ESHUTDOWN
+[2025.04.02-13.22.36:139][459]LogPeerConnectionSocketSubsystem:Display: Closing PeerConnectionSocket Text Chat: SE_ESHUTDOWN
+[2025.04.02-13.22.36:139][459]LogExit: GameNetDriver PeerConnectionNetDriver_1 shut down
+[2025.04.02-13.22.36:139][459]ConanSandbox: PreLoadMap_Callback begin
+[2025.04.02-13.22.36:139][459]GUI:Display: Unloading cached in-game GUI modules...
+[2025.04.02-13.22.36:139][459]UnitTest:Display: ClientState: 2
+[2025.04.02-13.22.36:139][459]ConanSandbox: RefreshAsyncLoadState [Static asset finder] Time: 0.000000 [s] (async)
+[2025.04.02-13.22.36:139][459]ConanSandbox: RefreshAsyncLoadState [Map data] Time: 0.000000 [s] (async)
+[2025.04.02-13.22.36:139][459]ConanSandbox: RefreshAsyncLoadState [Game tables] Time: 0.000000 [s] (async)
+[2025.04.02-13.22.36:139][459]ConanSandbox: RefreshAsyncLoadState [Audio] Time: 0.000000 [s] (async)
+[2025.04.02-13.22.36:139][459]ConanSandbox: RefreshAsyncLoadState [Mod controllers] Time: 0.000000 [s] (async)
+[2025.04.02-13.22.36:139][459]ConanSandbox: RefreshAsyncLoadState [Done] Time: 0.000000 [s] (async)
+[2025.04.02-13.22.36:139][459]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3415): UConanGameInstance::SetClientState: ToggleIngameLoadingScreen(true), m_ClientState=2
+[2025.04.02-13.22.36:139][459]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3131): UConanGameInstance::ToggleIngameLoadingScreen: ShowIngameLoadingScreen("")
+[2025.04.02-13.22.36:139][459]ConanSandbox: ShowIngameLoadingScreen: 
+[2025.04.02-13.22.36:139][459]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(55): AConanHUD::ShowIngameLoadingScreenNative: ActivateModule("IngameLoadingScreen", true)
+[2025.04.02-13.22.36:177][459]BattlEyeLogging: BattlEyeClient: ClientLoadingScreenStarted
+[2025.04.02-13.22.36:177][459]ConanSandbox: PreLoadMap_Callback end. Time taken: -0.199646 [s]
+[2025.04.02-13.22.36:177][459]LogLoad: LoadMap: /Game/Maps/Startup
+[2025.04.02-13.22.36:420][459]LogDreamworld:Display: Trying to flush the main thread job queue but it's getting bigger.
+[2025.04.02-13.22.36:587][459]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(482): UConanGameInstance::OnPreWorldInitialization: ToggleIngameLoadingScreen(false), m_ClientState=2
+[2025.04.02-13.22.36:612][459]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(490): UConanGameInstance::OnPreWorldInitialization: ToggleIngameLoadingScreen(true), m_ClientState=2
+[2025.04.02-13.22.36:612][459]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3136): UConanGameInstance::ToggleIngameLoadingScreen: ActivateModule("IngameLoadingScreen", true)
+[2025.04.02-13.22.36:617][459]LogAIModule: Creating AISystem for world Startup
+[2025.04.02-13.22.36:617][459]LogLoad: Game class is 'StartupGameMode_C'
+[2025.04.02-13.22.36:632][459]LogWorld: Bringing World /Game/Maps/Startup.Startup up for play (max tick rate 144) at 2025.04.02-15.22.36
+[2025.04.02-13.22.36:632][459]LogWorld: Bringing up level for play took: 0.000524
+[2025.04.02-13.22.36:636][459]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.04.02-13.22.36:636][459]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.04.02-13.22.36:636][459]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2025.04.02-13.22.36:636][459]LogEngine: BlockTillLevelStreamingCompleted: 8
+[2025.04.02-13.22.36:636][459]GUI:Warning: Code: UConsoleUserSettingsSave::MarkConsoleSettingsAsDirty() called to flush settings on PC; flushing all .ini files in response.
+[2025.04.02-13.22.36:636][459]LogConsoleManager:Warning: Setting the console variable 't.MaxFPS' to '0' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '144'
+[2025.04.02-13.22.36:636][459]LogConsoleManager:Warning: Setting the console variable 'r.VolumetricFog' to '1' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2025.04.02-13.22.36:636][459]LogConsoleManager:Warning: Setting the console variable 'r.MotionBlurQuality' to '3' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2025.04.02-13.22.36:675][459]UnitTest:Display: ClientState: 1
+[2025.04.02-13.22.36:675][459]ConanSandbox: RefreshAsyncLoadState [Static asset finder] Time: 0.298782 [s] (async)
+[2025.04.02-13.22.36:675][459]ConanSandbox: RefreshAsyncLoadState [Map data] Time: 0.298799 [s] (async)
+[2025.04.02-13.22.36:675][459]ConanSandbox: RefreshAsyncLoadState [Game tables] Time: 0.298815 [s] (async)
+[2025.04.02-13.22.36:675][459]ConanSandbox: RefreshAsyncLoadState [Audio] Time: 0.298824 [s] (async)
+[2025.04.02-13.22.36:675][459]ConanSandbox: RefreshAsyncLoadState [Mod controllers] Time: 0.298837 [s] (async)
+[2025.04.02-13.22.36:675][459]ConanSandbox: RefreshAsyncLoadState [Done] Time: 0.298848 [s] (async)
+[2025.04.02-13.22.36:675][459]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3415): UConanGameInstance::SetClientState: ToggleIngameLoadingScreen(false), m_ClientState=1
+[2025.04.02-13.22.36:675][459]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(85): AConanHUD::RemoveIngameLoadingScreen_Implementation: RemoveIngameLoadingScreen
+[2025.04.02-13.22.36:675][459]ConanSandbox: RemoveIngameLoadingScreen
+[2025.04.02-13.22.36:675][459]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(77): AConanHUD::RemoveIngameLoadingScreenNative: ActivateModule("IngameLoadingScreen", false)
+[2025.04.02-13.22.36:675][459]ConanSandbox: Force closing message box type Disconnecting. 
+[2025.04.02-13.22.36:676][459]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.04.02-13.22.36:676][459]LogLoad: Took 0.498653 seconds to LoadMap(/Game/Maps/Startup)
+[2025.04.02-13.22.36:676][459]LogLoad: TickWorldTravel finished. Time taken: 0.299301 [s]
+[2025.04.02-13.22.36:696][460]LogStreamableManager:Error: RequestAsyncLoad called with empty or only null assets!
+[2025.04.02-13.22.36:696][460]LogStreamableManager:Error: RequestAsyncLoad called with empty or only null assets!
+[2025.04.02-13.22.36:699][460]Network:Display: Presence: "PS_Default" => "PS_MainMenu".
+[2025.04.02-13.22.36:720][460]LogMediaAssets:Warning: UMediaPlayer::OpenSource called with null MediaSource
+[2025.04.02-13.22.36:735][461]LogWmfMedia:Warning: Possible loss of audio quality in stream 0 due to sample rate != 44100 Hz
+[2025.04.02-13.23.05:654][616]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.149 seconds.
+[2025.04.02-13.23.10:647][335]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.143 seconds.
+[2025.04.02-13.25.50:215][312]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.199 seconds.
+[2025.04.02-13.26.08:708][974]LogFriendsManager: Players Presence Status Updated
+[2025.04.02-13.28.54:782][889]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.130 seconds.
+[2025.04.02-13.30.08:685][530]LogFriendsManager: Players Presence Status Updated
+[2025.04.02-13.33.46:141][843]ConanSandbox: MessageBoxWidget: Activate CO-OP Do you want to activate CO-OP for this session?
+[2025.04.02-13.33.47:429][ 28]ConanSandbox: MessageBoxWidget:  Checking Permissions
+[2025.04.02-13.33.48:434][148]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeLevel
+[2025.04.02-13.33.48:434][148]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeDelay
+[2025.04.02-13.33.48:434][148]GUI:Warning: Code: SettingsServerBase is missing widget for: RestrictPurgeTime
+[2025.04.02-13.33.48:434][148]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeRestrictionWeekdayStart
+[2025.04.02-13.33.48:434][148]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeRestrictionWeekdayEnd
+[2025.04.02-13.33.48:434][148]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeRestrictionWeekendStart
+[2025.04.02-13.33.48:434][148]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeRestrictionWeekendEnd
+[2025.04.02-13.33.48:434][148]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgePreparationTime
+[2025.04.02-13.33.48:434][148]GUI:Warning: Code: SettingsServerBase is missing widget for: PurgeDuration
+[2025.04.02-13.33.48:434][148]GUI:Warning: Code: SettingsServerBase is missing widget for: MinPurgeOnlinePlayers
+[2025.04.02-13.33.48:434][148]GUI:Warning: Code: SettingsServerBase is missing widget for: AllowBuilding
+[2025.04.02-13.33.48:434][148]GUI:Warning: Code: SettingsServerBase is missing widget for: ClanPurgeTrigger
+[2025.04.02-13.33.48:434][148]GUI:Warning: Code: SettingsServerBase is missing widget for: ClanScoreUpateFrequency
+[2025.04.02-13.33.48:434][148]GUI:Warning: Code: SettingsServerBase is missing widget for: InitialPurgeDelay
+[2025.04.02-13.33.48:434][148]GUI:Warning: Code: SettingsServerBase is missing widget for: EnablePurge
+[2025.04.02-13.33.48:437][148]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\ServerList\HostLocalBase.cpp(356): UHostLocalBase::OnGameStarted: ToggleIngameLoadingScreen(true), m_ClientState=1
+[2025.04.02-13.33.48:437][148]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3131): UConanGameInstance::ToggleIngameLoadingScreen: ShowIngameLoadingScreen("")
+[2025.04.02-13.33.48:437][148]ConanSandbox: ShowIngameLoadingScreen: 
+[2025.04.02-13.33.48:437][148]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(55): AConanHUD::ShowIngameLoadingScreenNative: ActivateModule("IngameLoadingScreen", true)
+[2025.04.02-13.33.49:454][148]UnitTest:Display: ClientState: 2
+[2025.04.02-13.33.49:454][148]ConanSandbox: RefreshAsyncLoadState [Static asset finder] Time: 0.000000 [s] (async)
+[2025.04.02-13.33.49:454][148]ConanSandbox: RefreshAsyncLoadState [Map data] Time: 0.000000 [s] (async)
+[2025.04.02-13.33.49:454][148]ConanSandbox: RefreshAsyncLoadState [Game tables] Time: 0.000000 [s] (async)
+[2025.04.02-13.33.49:454][148]ConanSandbox: RefreshAsyncLoadState [Audio] Time: 0.000000 [s] (async)
+[2025.04.02-13.33.49:454][148]ConanSandbox: RefreshAsyncLoadState [Mod controllers] Time: 0.000000 [s] (async)
+[2025.04.02-13.33.49:454][148]ConanSandbox: RefreshAsyncLoadState [Done] Time: 0.000000 [s] (async)
+[2025.04.02-13.33.49:454][148]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3415): UConanGameInstance::SetClientState: ToggleIngameLoadingScreen(true), m_ClientState=2
+[2025.04.02-13.33.49:454][148]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3131): UConanGameInstance::ToggleIngameLoadingScreen: ShowIngameLoadingScreen("")
+[2025.04.02-13.33.49:454][148]ConanSandbox: ShowIngameLoadingScreen: 
+[2025.04.02-13.33.49:454][148]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(55): AConanHUD::ShowIngameLoadingScreenNative: ActivateModule("IngameLoadingScreen", true)
+[2025.04.02-13.33.49:454][148]BattlEyeLogging: BattlEyeClient: ClientLoadingScreenStarted
+[2025.04.02-13.33.49:596][153]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2025.04.02-13.33.49:596][153]LogGameState: Match State Changed from InProgress to LeavingMap
+[2025.04.02-13.33.49:596][153]LogNet: Browse: /Game/Maps/ConanSandbox/ConanSandbox?listen?bUseLobby
+[2025.04.02-13.33.49:596][153]ConanSandbox: PreLoadMap_Callback begin
+[2025.04.02-13.33.49:596][153]UnitTest:Display: ClientState: 2
+[2025.04.02-13.33.49:596][153]ConanSandbox: RefreshAsyncLoadState [Static asset finder] Time: 0.000000 [s] 
+[2025.04.02-13.33.49:596][153]ConanSandbox: RefreshAsyncLoadState [Map data] Time: 0.000000 [s] 
+[2025.04.02-13.33.49:596][153]ConanSandbox: RefreshAsyncLoadState [Game tables] Time: 0.000000 [s] 
+[2025.04.02-13.33.49:596][153]ConanSandbox: RefreshAsyncLoadState [Granite precaching] Time: 0.000000 [s] 
+[2025.04.02-13.33.49:596][153]ConanSandbox: RefreshAsyncLoadState [Audio] Time: 0.000000 [s] 
+[2025.04.02-13.33.49:596][153]ConanSandbox: RefreshAsyncLoadState [Mod controllers] Time: 0.000000 [s] 
+[2025.04.02-13.33.49:596][153]ConanSandbox: RefreshAsyncLoadState [Done] Time: 0.000000 [s] 
+[2025.04.02-13.33.49:619][153]ConanSandbox: PreLoadMap_Callback end. Time taken: -0.758412 [s]
+[2025.04.02-13.33.49:619][153]LogLoad: LoadMap: /Game/Maps/ConanSandbox/ConanSandbox?listen?bUseLobby
+[2025.04.02-13.33.51:228][153]LogNavMesh: dtNavMesh allocations: dtMeshTile (176) x m_maxTiles (50000) = 8800000 bytes, lut: dtMeshTile* (8) x m_tileLutSize (16384) = 131072 bytes
+[2025.04.02-13.33.51:320][153]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(482): UConanGameInstance::OnPreWorldInitialization: ToggleIngameLoadingScreen(false), m_ClientState=2
+[2025.04.02-13.33.51:341][153]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(490): UConanGameInstance::OnPreWorldInitialization: ToggleIngameLoadingScreen(true), m_ClientState=2
+[2025.04.02-13.33.51:341][153]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3136): UConanGameInstance::ToggleIngameLoadingScreen: ActivateModule("IngameLoadingScreen", true)
+[2025.04.02-13.33.51:345][153]LogAIModule: Creating AISystem for world ConanSandbox
+[2025.04.02-13.33.51:346][153]LogLoad: Game class is 'BaseGameMode_C'
+[2025.04.02-13.33.51:346][153]LogFuncomLiveServices:Display: Setting up listen server, trying to use co-op driver.
+[2025.04.02-13.33.51:346][153]PacketHandlerLog: DDoS detection status: detection enabled: 1 analytics enabled: 1
+[2025.04.02-13.33.51:347][153]LogPeerConnectionSocketSubsystem:Error: Dreamworld::FPeerConnectionSocketSubsystem::GetHostName is not supported.
+[2025.04.02-13.33.51:347][153]WebRTC/PeerConnection: gethostname failed (SE_EWOULDBLOCK)
+[2025.04.02-13.33.51:347][153]LogPeerConnectionSocketSubsystem:Error: Dreamworld::FPeerConnectionSocketSubsystem::GetHostByName is not supported.
+[2025.04.02-13.33.51:347][153]GetHostByName failed (SE_EADDRNOTAVAIL)
+[2025.04.02-13.33.51:347][153]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.04.02-13.33.51:347][153]LogNet: GameNetDriver PeerConnectionNetDriver_2 IpNetDriver listening on port 0
+[2025.04.02-13.33.51:347][153]LogPeerConnectionSocketSubsystem:Warning: PeerConnectionSocketSubsystem::Private::GetLocalAddrFromOssSession: Unable to determine local endpoint name: No GameSession session found.
+[2025.04.02-13.33.51:347][153]LogPeerConnectionSocketSubsystem:Warning: PeerConnectionSocketSubsystem::Private::GetLocalAddrFromFirstLocalPlayer: Unable to determine local endpoint name: No local player found.
+[2025.04.02-13.33.51:347][153]LogPeerConnectionSocketSubsystem:Display: PeerConnectionSocketSubsystem::Private::GetLocalAddrFromOssIdentity: Local endpoint name from user 0: Steam%0A76561198386140428@fls.funcom.com+7777.
+[2025.04.02-13.33.51:355][153]LogLevelActorContainer: Created LevelActorCluster (318) for /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox:PersistentLevel with 277 objects, 0 referenced clusters and 13 mutable objects.
+[2025.04.02-13.33.51:356][153]LogWorld: Bringing World /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox up for play (max tick rate 144) at 2025.04.02-15.33.51
+[2025.04.02-13.33.51:356][153]LogMemory:Display: Entered application state 'InitGame'.
+[2025.04.02-13.33.51:457][153]ConanSandbox: Init map with unique name 'The Exiled Lands' and unique ID (CRC32 hash) 1988349854
+[2025.04.02-13.33.51:786][153]LogDreamworld:Display: CreateBackup: database c:\dysk d\steam\steamapps\common\conan exiles\conansandbox\saved\game.db backup complete.
+[2025.04.02-13.33.51:801][153]Persistence: ConanDBHelper::Maintenance_BuildingInstance(): Removed by cell: 0 Grid size: 10000 [uu]
+[2025.04.02-13.33.51:801][153]Persistence: ConanDBHelper::Maintenance_BuildingInstance(): Removed by class: 0
+[2025.04.02-13.33.51:801][153]Persistence: ConanDBHelper::Maintenance(): Building instances - Success
+[2025.04.02-13.33.51:805][153]Persistence: ConanDBHelper::Maintenance(): Placeables - Success
+[2025.04.02-13.33.51:809][153]Persistence: ConanDBHelper::Maintenance_DuplicatedFeats(): No duplicates
+[2025.04.02-13.33.51:809][153]Persistence: ConanDBHelper::Maintenance(): Duplicated feats - Success
+[2025.04.02-13.33.51:812][153]Persistence: ConanDBHelper::Maintenance_OrphanedRows(): Table item_inventory is ok
+[2025.04.02-13.33.51:816][153]Persistence: ConanDBHelper::Maintenance_OrphanedRows(): Table item_properties is ok
+[2025.04.02-13.33.51:819][153]Persistence: ConanDBHelper::Maintenance_OrphanedRows(): Table properties is ok
+[2025.04.02-13.33.51:823][153]Persistence: ConanDBHelper::Maintenance_OrphanedRows(): Table buildings is ok
+[2025.04.02-13.33.51:826][153]Persistence: ConanDBHelper::Maintenance_OrphanedRows(): Table building_instances is ok
+[2025.04.02-13.33.51:826][153]Persistence: ConanDBHelper::Maintenance(): Orphaned rows - Success
+[2025.04.02-13.33.51:872][153]Persistence: ConanDBHelper::Maintenance(): Database file - Success
+[2025.04.02-13.33.51:872][153]ConanSandbox:Display: ConanDBHelper Maintenance completed in 0.1 seconds.
+[2025.04.02-13.33.51:903][153]Main:Display: Creating ServiceActors for "/Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox:PersistentLevel.BaseGameState_C_0"...
+[2025.04.02-13.33.51:906][153]Main:Display: Registered service actor "BP_ComboRulesLookup_C" with interface "/Game/Systems/Combat/ComboSystem/BP_ComboRulesLookupInterface.BP_ComboRulesLookupInterface_C".
+[2025.04.02-13.33.51:907][153]Main:Display: Registered service actor "BP_CompanionIncidentalAudioServiceActor_C" with interface "/Game/Systems/Audio/BPI_IncidentalAudioServiceInterface.BPI_IncidentalAudioServiceInterface_C".
+[2025.04.02-13.33.51:997][153]Main:Display: Registered service actor "BP_ItemTagService_C" with interface "/Game/Systems/Inventory/Tags/BP_ItemTagServiceInterface.BP_ItemTagServiceInterface_C".
+[2025.04.02-13.33.52:003][153]Main:Display: Registered service actor "BP_EventManager_C" with interface "/Game/DLC/Special/Events/EventSystems/BPI_EventSystem.BPI_EventSystem_C".
+[2025.04.02-13.33.52:003][153]Main:Display: Registered service actor "BP_EventManager_C" with interface "/Game/Gameplay/BPI_EventSystem_External.BPI_EventSystem_External_C".
+[2025.04.02-13.33.52:003][153]Main:Display: Registered service actor "BP_RevealCorruption_Manager_C" with interface "/Game/Sorcery/Spells/Reveal_Corruption/I_RevealedCorruption.I_RevealedCorruption_C".
+[2025.04.02-13.33.52:004][153]Main:Display: Registered service actor "BP_QuestNPCSpawningManager_C" with interface "/Game/Systems/Quest/BPI_QuestNPCSpawning.BPI_QuestNPCSpawning_C".
+[2025.04.02-13.33.52:008][153]Main:Display: Registered service actor "BP_ThrallCageManager_ExiledLands_C" with interface "/Game/Systems/Cheats/I_ThrallCageManager.I_ThrallCageManager_C".
+[2025.04.02-13.33.52:008][153]Main:Display: Registered service actor "BP_KurakTeleporter_Manager_C" with interface "/Game/Sorcery/Content/Teleporter/I_KurakTeleporter.I_KurakTeleporter_C".
+[2025.04.02-13.33.52:013][153]LogWorld: Bringing up level for play took: 0.664970
+[2025.04.02-13.33.52:014][153]LogLongPackageNames:Warning: URL: :0//Game/Maps/ConanSandbox/ConanSandbox: Name may not contain the following characters: :
+[2025.04.02-13.33.52:015][153]LogOnline:Warning: STEAM: No game present to join for session (Game)
+[2025.04.02-13.33.52:015][153]Login:Display: [BaseGameMode_C_0] FindPlayerStart returns Translation: X=127988.344 Y=274817.000 Z=-19563.809 Rotation: P=0.000000 Y=-95.786804 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2025.04.02-13.33.52:031][153]Login:Display: [FunCombat_PlayerController_C_0 None] User [4653d437a89ef272829660452805199f] logged in.
+[2025.04.02-13.33.52:031][153]Login:Display: [BaseGameMode_C_0] BaseGameMode.StartLogin PlayerID: {}
+[2025.04.02-13.33.52:031][153]LogMemory:Display: Entered application state 'StartPlay'.
+[2025.04.02-13.33.52:031][153]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.04.02-13.33.52:031][153]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.04.02-13.33.52:031][153]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2025.04.02-13.33.52:043][153]Persistence: Loading/Spawning active mod controllers, #16 expected
+[2025.04.02-13.33.52:045][153]Persistence: Loading mod controller: DLC_Nemedia_Modcontroller_C
+[2025.04.02-13.33.52:048][153]Persistence: Loading mod controller: DLC_Yamatai_ModController_C
+[2025.04.02-13.33.52:051][153]Persistence: Loading mod controller: DLC_Turan_Modcontroller_C
+[2025.04.02-13.33.52:053][153]Persistence: Loading mod controller: DLC_Siptah_Modcontroller_C
+[2025.04.02-13.33.52:057][153]Persistence: Loading mod controller: DLC_RPpack_ModController_C
+[2025.04.02-13.33.52:061][153]Persistence: Loading mod controller: DLC_Riders_ModController_C
+[2025.04.02-13.33.52:064][153]Persistence: Loading mod controller: DLC_RiddleOfSteel_ModController_C
+[2025.04.02-13.33.52:067][153]Persistence: Loading mod controller: DLC_Pict_Modcontroller_C
+[2025.04.02-13.33.52:069][153]Persistence: Loading mod controller: BP_Special_ModController_C
+[2025.04.02-13.33.52:072][153]Persistence: Loading mod controller: BP_ModController_Khitai_DLC_C
+[2025.04.02-13.33.52:075][153]Persistence: Loading mod controller: DLC_EARhino_Modcontroller_C
+[2025.04.02-13.33.52:078][153]Persistence: Loading mod controller: DLC_BAS_Modcontroller_C
+[2025.04.02-13.33.52:080][153]Persistence: Loading mod controller: DLC_Argos_ModController_C
+[2025.04.02-13.33.52:084][153]Persistence: Loading mod controller: DLC_Aquilonia_ModController_C
+[2025.04.02-13.33.52:088][153]Persistence: Loading mod controller: BP_ConanSword_DLC_ModController_C
+[2025.04.02-13.33.52:091][153]Persistence: Loading mod controller: BP_ConanArmor_DLC_ModController_C
+[2025.04.02-13.33.52:094][153]LogMemory:Display: Entered application state 'MatchStarting'.
+[2025.04.02-13.33.53:007][153]LogLevelActorContainer: Created LevelActorCluster (254) for /Game/Maps/ConanSandbox/Art/Art_CurseWall.Art_CurseWall:PersistentLevel with 16 objects, 29 referenced clusters and 16 mutable objects.
+[2025.04.02-13.33.53:018][153]LogLevelActorContainer: Created LevelActorCluster (245) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y2.heightmap_x5_y2:PersistentLevel with 1440 objects, 42 referenced clusters and 296 mutable objects.
+[2025.04.02-13.33.53:021][153]LogLevelActorContainer: Created LevelActorCluster (253) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y1.heightmap_x6_y1:PersistentLevel with 756 objects, 42 referenced clusters and 258 mutable objects.
+[2025.04.02-13.33.53:033][153]LogLevelActorContainer: Created LevelActorCluster (297) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y2.heightmap_x6_y2:PersistentLevel with 2180 objects, 42 referenced clusters and 318 mutable objects.
+[2025.04.02-13.33.53:035][153]LogLevelActorContainer: Created LevelActorCluster (286) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_North.Gameplay_NPCs_Swamp_North:PersistentLevel with 94 objects, 0 referenced clusters and 18 mutable objects.
+[2025.04.02-13.33.53:035][153]LogLevelActorContainer: Created LevelActorCluster (293) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_West.Gameplay_NPCs_Swamp_West:PersistentLevel with 10 objects, 0 referenced clusters and 3 mutable objects.
+[2025.04.02-13.33.53:036][153]LogEngine: BlockTillLevelStreamingCompleted: 9
+[2025.04.02-13.33.53:036][153]GlobalServerChannel:Display: Loading ServerSettings File: ../../../ConanSandbox/Saved/Config/WindowsNoEditor/ServerSettings.ini
+[2025.04.02-13.33.53:038][153]ConanSandbox:Display: AServerBlacklist::LoadSettings(): Whitelist file C:/Dysk D/Steam/steamapps/common/Conan Exiles/ConanSandbox/Saved//whitelist.txt does not exist
+[2025.04.02-13.33.53:038][153]ConanSandbox:Display: AServerBlacklist::LoadSettings(): Blacklist file C:/Dysk D/Steam/steamapps/common/Conan Exiles/ConanSandbox/Saved//blacklist.txt does not exist
+[2025.04.02-13.33.53:038][153]GlobalServerChannel:Display: Loading ServerSettings File: ../../../ConanSandbox/Saved/Config/WindowsNoEditor/ServerSettings.ini
+[2025.04.02-13.33.53:237][153]GUI:Warning: Code: UConsoleUserSettingsSave::MarkConsoleSettingsAsDirty() called to flush settings on PC; flushing all .ini files in response.
+[2025.04.02-13.33.53:237][153]LogConsoleManager:Warning: Setting the console variable 't.MaxFPS' to '0' with 'SetByGameSetting' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '144'
+[2025.04.02-13.33.53:237][153]LogConsoleManager:Warning: Setting the console variable 'r.VolumetricFog' to '1' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2025.04.02-13.33.53:237][153]LogConsoleManager:Warning: Setting the console variable 'r.MotionBlurQuality' to '3' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByCode'. Value remains '0'
+[2025.04.02-13.33.53:244][153]Audio:Display: [ConanSandbox_C_1] Loading environment audio level: Client or listen server.
+[2025.04.02-13.33.53:244][153]LogLevel: ActivateLevel /Game/Maps/ConanSandbox/ConanSandbox_SOUND 1 1 0 0
+[2025.04.02-13.33.53:244][153]Audio:Display: [BP_SoundStage_C_0] Sound Stage on line
+[2025.04.02-13.33.53:244][153]LogPrimitiveComponent:Warning: CreateDynamicMaterialInstance on /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox:PersistentLevel.BP_SandStorm.SandstormMesh: Material index 1 is invalid.
+[2025.04.02-13.33.53:280][153]Persistence:Display: WorldPersistence: Loading 21 actors
+[2025.04.02-13.33.53:501][153]Persistence:Display: WorldPersistence: Finished loading 21 actors in 0.2 seconds.
+[2025.04.02-13.33.53:512][153]LogMemory:Display: Entered application state 'WorldPersistenceDone'.
+[2025.04.02-13.33.53:518][153]Persistence:Display: WorldPersistence: Found 1 alive characters
+[2025.04.02-13.33.53:518][153]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.04.02-13.33.53:518][153]ItemInventory:Error: Data: Map feat blacklist table not found, blacklist will not function.
+[2025.04.02-13.33.53:518][153]ItemInventory:Error: Data: Map feat blacklist table not found, blacklist will not function.
+[2025.04.02-13.33.53:518][153]ItemInventory:Error: Data: Map feat blacklist table not found, blacklist will not function.
+[2025.04.02-13.33.53:518][153]ItemInventory:Error: Data: Map feat blacklist table not found, blacklist will not function.
+[2025.04.02-13.33.53:518][153]ItemInventory:Error: Data: Map feat blacklist table not found, blacklist will not function.
+[2025.04.02-13.33.53:518][153]ItemInventory:Error: Data: Map feat blacklist table not found, blacklist will not function.
+[2025.04.02-13.33.53:518][153]ItemInventory:Error: Data: Map feat blacklist table not found, blacklist will not function.
+[2025.04.02-13.33.53:518][153]ItemInventory:Error: Data: Map feat blacklist table not found, blacklist will not function.
+[2025.04.02-13.33.53:518][153]ItemInventory:Error: Data: Map feat blacklist table not found, blacklist will not function.
+[2025.04.02-13.33.53:519][153]LogLoad: Took 3.900655 seconds to LoadMap(/Game/Maps/ConanSandbox/ConanSandbox)
+[2025.04.02-13.33.53:519][153]LogLoad: TickWorldTravel finished. Time taken: 3.142461 [s]
+[2025.04.02-13.33.53:605][154]ConanSandbox:Display: Character ID 24 has name Waste of Air and guild ID 0.
+[2025.04.02-13.33.53:617][155]Login:Display: [FunCombat_PlayerController_C_0 None] UserCharacterList: Loading Character 0
+[2025.04.02-13.33.53:617][155]ConanSandbox:Warning: AConanCharacter::EnableLoadingInvulnerability enabled for BasePlayerChar_C_0
+[2025.04.02-13.33.53:617][155]Login:Display: [FunCombat_PlayerController_C_0 None] Creating ADHOC Player Start Translation: X=234736.031 Y=155840.531 Z=-20067.107 Rotation: P=0.000000 Y=49.035648 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2025.04.02-13.33.53:617][155]Login:Display: [FunCombat_PlayerController_C_0 None] PreBeginPlay login completed.
+[2025.04.02-13.33.53:634][158]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\Character\ConanPlayerController.cpp(12917): AConanPlayerController::MakeClientWaitForStreamingWhenCloseTo_Implementation: SetTransitionState(2), TransitionState=0
+[2025.04.02-13.33.53:637][158]LogActor:Warning: UAILODComponent::OnChildAttachedToOwner - Attached (BP_PlayerLight_C_0) to ParentActor (BasePlayerChar_C_0) but bNetUseOwnerRelevancy is false, and has no AILODComponent
+[2025.04.02-13.33.53:638][158]Network:Display: Presence: "PS_MainMenu" => "PS_Default".
+[2025.04.02-13.33.53:714][158]ConanSandbox:Warning: AConanPlayerController::Possess - Calling BattlEye::PlayerPossessed(this)
+[2025.04.02-13.33.53:902][158]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\Character\ConanPlayerController.cpp(12917): AConanPlayerController::MakeClientWaitForStreamingWhenCloseTo_Implementation: SetTransitionState(2), TransitionState=2
+[2025.04.02-13.33.53:905][158]Streaming:Display: Waiting for streaming completed (game, unload)
+[2025.04.02-13.33.53:905][158]LogEngine: BlockTillLevelStreamingCompleted: 10
+[2025.04.02-13.33.53:911][158]Effects:Display: [BP_CloudParticleSpawner BasePlayerChar_C_0] Actual max particle count: 49
+[2025.04.02-13.33.53:918][159]Streaming:Display: Waiting for streaming completed (game, load)
+[2025.04.02-13.33.53:924][159]LogLevelActorContainer: Created LevelActorCluster (215) for /Game/Maps/ConanSandbox/ConanSandbox_SOUND.ConanSandbox_SOUND:PersistentLevel with 12 objects, 0 referenced clusters and 3 mutable objects.
+[2025.04.02-13.33.54:022][159]LogEngine: BlockTillLevelStreamingCompleted: 11
+[2025.04.02-13.33.54:023][159]Audio:Display: [ConanSandbox_C_1] Environment audio level loaded.
+[2025.04.02-13.33.54:023][159]ConanSandbox: UConanGameInstance::OnLoginStatusChanged: LoggedIn
+[2025.04.02-13.33.54:023][159]LogDataMiningUserTracker:Display: LoginStatusChanged: 0 => 2, LocalUserNum: 0, NewId: Waste of Air [0x11000011962550C]
+[2025.04.02-13.33.54:029][160]Streaming:Display: Waiting for streaming completed (game): Done.
+[2025.04.02-13.33.54:030][160]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\Character\ConanPlayerController.cpp(7952): AConanPlayerController::Tick: SetTransitionState(3), TransitionState=2
+[2025.04.02-13.33.54:030][160]ConanGameInstanceLog:Warning: Levels loaded: 645/645
+[2025.04.02-13.33.54:068][161]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\Character\ConanPlayerController.cpp(3759): AConanPlayerController::ClientCompleteSpawn_Implementation: SetTransitionState(0), TransitionState=3
+[2025.04.02-13.33.54:068][161]UnitTest:Display: ClientState: 3
+[2025.04.02-13.33.54:068][161]ConanSandbox: RefreshAsyncLoadState [Static asset finder] Time: 0.000000 [s] (async)
+[2025.04.02-13.33.54:068][161]ConanSandbox: RefreshAsyncLoadState [Map data] Time: 0.000000 [s] (async)
+[2025.04.02-13.33.54:068][161]ConanSandbox: RefreshAsyncLoadState [Game tables] Time: 0.000000 [s] (async)
+[2025.04.02-13.33.54:068][161]ConanSandbox: RefreshAsyncLoadState [Audio] Time: 0.000000 [s] (async)
+[2025.04.02-13.33.54:068][161]ConanSandbox: RefreshAsyncLoadState [Mod controllers] Time: 0.000000 [s] (async)
+[2025.04.02-13.33.54:068][161]ConanSandbox: RefreshAsyncLoadState [Done] Time: 0.000000 [s] (async)
+[2025.04.02-13.33.54:101][161]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\ConanGameInstance.cpp(3415): UConanGameInstance::SetClientState: ToggleIngameLoadingScreen(false), m_ClientState=3
+[2025.04.02-13.33.54:101][161]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(85): AConanHUD::RemoveIngameLoadingScreen_Implementation: RemoveIngameLoadingScreen
+[2025.04.02-13.33.54:101][161]ConanSandbox: RemoveIngameLoadingScreen
+[2025.04.02-13.33.54:101][161]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(77): AConanHUD::RemoveIngameLoadingScreenNative: ActivateModule("IngameLoadingScreen", false)
+[2025.04.02-13.33.54:101][161]BattlEyeLogging: BattlEyeClient: ClientLoadingScreenStopped
+[2025.04.02-13.33.54:101][161]Main:Display: Entering game session (playing as Server)...
+[2025.04.02-13.33.54:101][161]LogSessionLengthTracker:Display: Tracking of session length started.
+[2025.04.02-13.33.54:102][161]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\Character\ConanPlayerController.cpp(3767): AConanPlayerController::ClientCompleteSpawn_Implementation: ToggleIngameLoadingScreen(false), m_ClientState=3
+[2025.04.02-13.33.54:103][161]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(85): AConanHUD::RemoveIngameLoadingScreen_Implementation: RemoveIngameLoadingScreen
+[2025.04.02-13.33.54:103][161]ConanSandbox: RemoveIngameLoadingScreen
+[2025.04.02-13.33.54:103][161]GUI:Display: C:\B\tech_exiles\code\UE4\Source\ConanSandbox\UI\HUD\ConanHUD.cpp(77): AConanHUD::RemoveIngameLoadingScreenNative: ActivateModule("IngameLoadingScreen", false)
+[2025.04.02-13.33.54:103][161]ConanSandbox:Warning: [HandleChatP2P]:Signed in player cannot chat!
+[2025.04.02-13.33.56:796][535]LogOnlineStoreSteam: Steam currency code: PLN.
+[2025.04.02-13.33.57:036][569]ConanSandbox:Warning: AConanCharacter::DisableLoadingInvulnerability disabled for BasePlayerChar_C_0
+[2025.04.02-13.34.08:668][126]LogFriendsManager: Players Presence Status Updated
+[2025.04.02-13.35.25:005][249]LogOutputDevice:Display: Bug report upload completed with result code 200, took 0.137 seconds.
+[2025.04.02-13.36.18:869][196]LogLevelActorContainer: Created LevelActorCluster (423) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y1.heightmap_x5_y1:PersistentLevel with 632 objects, 42 referenced clusters and 273 mutable objects.
+[2025.04.02-13.36.21:304][499]LogLevelActorContainer: Created LevelActorCluster (423) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y1.heightmap_x5_y1:PersistentLevel with 632 objects, 42 referenced clusters and 273 mutable objects.

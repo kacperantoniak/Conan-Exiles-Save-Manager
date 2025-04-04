@@ -1,0 +1,28 @@
+,{"Configuration":"ConanSandbox.Client.VS2015.Live.Win64","Branch":"exiles-stable","ProjectCode":"ConanSandbox","Platform":"x64","Revision":1311351,"Snapshot":43706,"QFE":0,"EngineMode":"Client","OnlineSubsystemPlatform":"Steam","GameTweakSystem.BuildVersion":9,"GameTweakSystem.DataPatchHash":""}
+,{"Time":1743729619,"File":"DataMiningUserTracker.cpp","Line":408,"Category":"pse_LoggedInGameOwner","Message":"tuwKOGyJrsXJ71dRwq9Rpw=="}
+,{"Time":1743729619,"File":"DataMiningUserTracker.cpp","Line":409,"Category":"pse_SavedLoggedInGameOwner","Message":"tuwKOGyJrsXJ71dRwq9Rpw=="}
+,{"Time":1743729619,"File":"OnlineSubsystemFls.cpp","Line":576,"Category":"pse_FlsBackendEnvironment","Message":"A5B4F"}
+,{"Time":1743729622,"File":"ConanSandbox.cpp","Line":389,"Category":"pse_CountryCode","Message":"PL"}
+,{"Time":1743729624,"File":"ConanGameInstance.cpp","Line":560,"Category":"pse_SubPlatformName","Message":"WindowsSteam"}
+,{"Time":1743729624,"File":"ConanGameInstance.cpp","Line":687,"Category":"pse_Language","Message":"en"}
+,{"Time":1743729647,"File":"ConanGameInstance.cpp","Line":3553,"Category":"pse_SessionType","Message":"CoopHost"}
+,{"Time":1743729626,"File":"ConanGameInstance.cpp","Line":2241,"Category":"pse_GameInstanceGuid","Message":"57CC1FFC4B819C7EE1037F98EF5B2F27"}
+,{"Time":1743729631,"File":"OnlineIdentityFls.cpp","Line":605,"Category":"pse_MasterPlayFabId","Message":"RlPUN6ie8nKClmBFKAUZnw=="}
+,{"Time":1743729632,"File":"DataMiningUserTracker.cpp","Line":379,"Category":"pse_Users","Message":{"own":"tuwKOGyJrsXJ71dRwq9Rpw==","usr":["tuwKOGyJrsXJ71dRwq9Rpw=="],"nik":["XQ1KYUHIJ1PL9gb00PHYaw=="]}}
+,{"Time":1743729645,"File":"ServerSettings.cpp","Line":627,"Category":"pse_ServerSettings","Message":{"ServerCombatMode":2}}
+,{"Time":1743729645,"File":"ConanGameState.cpp","Line":658,"Category":"pse_MapName","Message":"ConanSandbox"}
+,{"Time":1743729646,"File":"ConanTelemetry.cpp","Line":1887,"Category":"pse_Level","Message":"17"}
+,{"Time":1743729646,"File":"ConanCharacter.cpp","Line":1022,"Category":"pse_HashedCharacterName","Message":"61629CBC8A7D4AA79E73F077E66112E58D1E3D03"}
+,{"Time":1743729646,"File":"ConanCharacter.cpp","Line":1023,"Category":"pse_CharacterGuid","Message":"9E7C4E704F461919C96C5CBE1B37A120"}
+,{"Time":1743729646,"File":"ConanCharacter.cpp","Line":1027,"Category":"pse_ClanId","Message":"25"}
+,{"Time":1743729646,"File":"ConanTelemetry.cpp","Line":1967,"Category":"pse_AdminMode","Message":"0"}
+,{"Time":1743729651,"File":"FlsRmqNotifications.cpp","Line":523,"Category":"RmqConnectionFailed","Message":{"userId":"EE8C0182E58F6DD2","bSecure":true}}
+,{"Time":1743729651,"File":"FlsRmqNotifications.cpp","Line":523,"Category":"RmqConnectionFailed","Message":{"userId":"EE8C0182E58F6DD2","bSecure":true}}
+,{"Time":1743729679,"File":"FlsRmqNotifications.cpp","Line":523,"Category":"RmqConnectionFailed","Message":{"userId":"EE8C0182E58F6DD2","bSecure":true}}
+,{"Time":1743729679,"File":"FlsRmqNotifications.cpp","Line":523,"Category":"RmqConnectionFailed","Message":{"userId":"EE8C0182E58F6DD2","bSecure":true}}
+,{"Time":1743729732,"File":"ConanGameInstance.cpp","Line":3503,"Category":"pse_SessionType","Message":"MainMenu"}
+,{"Time":1743729732,"File":"ConanGameState.cpp","Line":764,"Category":"pse_MapName","Message":""}
+,{"Time":1743729732,"File":"ConanGameState.cpp","Line":765,"Category":"pse_ServerUId","Message":""}
+,{"Time":1743729732,"File":"ConanGameInstance.cpp","Line":3517,"Category":"Activity","Message":{"t":"ServerStop","oid":"tuwKOGyJrsXJ71dRwq9Rpw==","uid":"tuwKOGyJrsXJ71dRwq9Rpw==","st":63879326447.158997,"et":63879326527.203987},"s_current_location":"Telith's Island","b_is_admin_panel_on":"0","s_control_mode":"0","f_x":"32519","f_y":"22792","f_z":"-1737"}
+,{"Time":1743729732,"File":"ConanGameMode.cpp","Line":7474,"Category":"GuildMemberCountData","Message":{"s":"","MC":[{"m":2,"g":1}]},"s_current_location":"Telith's Island","b_is_admin_panel_on":"0","s_control_mode":"0","f_x":"32519","f_y":"22792","f_z":"-1737"}
+,{"Time":1743729732,"File":"ConanGameMode.cpp","Line":7474,"Category":"GuildThrallCountData","Message":{"s":"","TC":[{"t":0,"g":1}]},"s_current_location":"Telith's Island","b_is_admin_panel_on":"0","s_control_mode":"0","f_x":"32519","f_y":"22792","f_z":"-1737"}

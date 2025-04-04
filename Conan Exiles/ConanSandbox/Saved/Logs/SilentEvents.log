@@ -1,0 +1,6 @@
+,{"Configuration":"ConanSandbox.Client.VS2015.Live.Win64","Branch":"exiles-stable","ProjectCode":"ConanSandbox","Platform":"x64","Revision":1311351,"Snapshot":43706,"QFE":0,"EngineMode":"Client","OnlineSubsystemPlatform":"Steam","GameTweakSystem.BuildVersion":9,"GameTweakSystem.DataPatchHash":""}
+,{"Time":1743708488,"File":"DataMiningUserTracker.cpp","Line":408,"Category":"pse_LoggedInGameOwner","Message":"tuwKOGyJrsXJ71dRwq9Rpw=="}
+,{"Time":1743708488,"File":"DataMiningUserTracker.cpp","Line":409,"Category":"pse_SavedLoggedInGameOwner","Message":"tuwKOGyJrsXJ71dRwq9Rpw=="}
+,{"Time":1743708488,"File":"OnlineSubsystemFls.cpp","Line":576,"Category":"pse_FlsBackendEnvironment","Message":"A5B4F"}
+,{"Time":1743708491,"File":"ConanSandbox.cpp","Line":389,"Category":"pse_CountryCode","Message":"PL"}
+,{"Time":1743708493,"File":"ConanGameInstance.cpp","Line":560,"Category":"pse_SubPlatformName","Message":"WindowsSteam"}
