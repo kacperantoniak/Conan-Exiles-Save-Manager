@@ -1,7 +1,21 @@
 @echo off
 setlocal enabledelayedexpansion
 
-set path=""
+REG QUERY HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Valve\Steam /v InstallPath>saveMgrDetectTempFile.txt
+set "steamPath="
+
+for /f "usebackq tokens=1,2,3*" %%A in (saveMgrDetectTempFile.txt) do (
+    if "%%A"=="InstallPath" (
+        set "steamPath=%%C %%D"
+    )
+)
+
+del saveMgrDetectTempFile.txt
+echo Steam path is: !steamPath!
+
+set path="!steamPath!\steamapps\common\Conan Exiles\ConanSandbox"
+echo saves path is !path! 
+
 if not exist %path% (
     echo %path% does not exist.
     pause
