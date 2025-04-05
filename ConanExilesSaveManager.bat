@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 
-set path="C:\Users\zuzan\Desktop\ConanSaveMgr-main\Conan Exiles\ConanSandbox"
+set path=""
 if not exist %path% (
     echo %path% does not exist.
     pause
