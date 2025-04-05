@@ -1,25 +1,37 @@
 @echo off
-set path=C:\Users\Kacper\Desktop\save wip\Conan Exiles\ConanSandbox
+setlocal enabledelayedexpansion
+
+set path="C:\Users\zuzan\Desktop\ConanSaveMgr-main\Conan Exiles\ConanSandbox"
+if not exist %path% (
+    echo %path% does not exist.
+    pause
+    exit
+)
+echo %path%> savemgr_tempfile.txt
+for %%? in (savemgr_tempfile.txt) do ( set /A len=%%~z? - 2 )
+set /A len = %len% - 2
+del savemgr_tempfile.txt
+
 
 :main
-echo 1 Name your current save
-echo 2 Select a save to load
-echo 0 Exit
 
-set /p choice=""
-if %choice%==1 set /p name="Enter save name:" && goto nameSave
-if %choice%==2 goto listSaves
-if %choice%==0 exit
+if not exist "!path:~1,%len%!\Saved" (
+    goto listSaves
+)
 
-exit
+echo Name your current save.
+set /p name=""
 
-:nameSave
-ren "%path%\Saved" "Saved_%name%"
-goto main
+if exist "!path:~1,%len%!\Saved_"%name% (
+    echo Save with the name %name% already exists, please use a different name.
+    goto main
+)
+
+ren "!path:~1,%len%!\Saved" "Saved_%name%"
+
 
 :listSaves
 cd %path%
-setlocal enabledelayedexpansion
 set c = -1
 for /d %%d in (*) do (
     set dir=%%~nxd
@@ -29,15 +41,19 @@ for /d %%d in (*) do (
         set "arr[!c!]=!fin!"
     )
 )
-echo Select a save to load
+echo Select a save to load or enter 0 to exit (making you able to start a new save).
 for /L %%f in (1,1,!c!) do (echo %%f - !arr[%%f]!)
+
 
 :selection
 set /p sel=""
 
+if %sel%==0 exit
+
 if defined arr[%sel%] (
     set load=Saved_!arr[%sel%]!
-    echo !load!
-) else (echo Invalid selection && goto selection)
+    ren "!path:~1,%len%!\Saved_!arr[%sel%]!" "Saved"
+) else (echo Invalid selection. && goto selection)
 
-endlocal
+echo Successfully loaded !arr[%sel%]!!
+pause
